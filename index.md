@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Markdown kitchen sink
+title: Visit us at [this site](https://purduerm.org).
 nav_order: 99
 ---
