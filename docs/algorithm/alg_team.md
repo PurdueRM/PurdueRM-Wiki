@@ -3,6 +3,7 @@ layout: default
 title: Algorithm
 parent: Welcome
 nav_order: 1
+has_children: true
 ---
 
 # Algorithm Team
