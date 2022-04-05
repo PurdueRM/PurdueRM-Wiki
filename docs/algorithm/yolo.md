@@ -1,6 +1,6 @@
 ---
 layout: default
-title: yolo
+title: Using YoloV5
 parent: Algorithm
 nav_order: 1
 ---
@@ -14,6 +14,7 @@ You will need Python and Pip installed for this step. Make a new working directo
 Now installing all requirements for Yolo:
 
 `pip install -r yolov5/requirements.txt`
+
 (As a forewarning, we were unable to use Yolo on M1 Macs due to architecture issues. You may need to compile a few libraries from source to do so.)
 
 # Getting a dataset
@@ -25,14 +26,16 @@ After collecting a set of images, you will need to add **bounding boxes** to the
 ### PRO Tip:
 Use roboflow.com to simplify this process. Simply upload the images, and use the built-in bounding box feature to add bounding boxes.
 
-You can also add preprocessing/augmentations to diversify your data as needed, however this step is not always necessary.
-(Then export the dataset in YoloV5 (pyrotch) format.
+You can also add preprocessing/augmentations to diversify your data as needed, however this step is not always necessary. (Then export the dataset in YoloV5 (pytorch) format).
 
 # Train YoloV5
 
 Download the dataset you created, and paste all the files and folders into the root directory of your YoloV5 folder.
 
-To train YoloV5, run the following command: `python train.py --img <image_size> --cfg yolov5s.yaml --batch 32 --epochs <epochs> --data data.yaml --weights yolov5s.pt --workers 24`
+To train YoloV5, run the following command: 
+
+`python train.py --img <image_size> --cfg yolov5s.yaml --batch 32 --epochs <epochs> --data data.yaml --weights yolov5s.pt --workers 24`
+
 This process will likely take forever, so please use a beefy PC. Also, increasing epochs will likely increase the accuracy of YoloV5, but it will increase training time and detection time hugely.
 
 # Testing YoloV5
@@ -44,4 +47,4 @@ This process will likely take forever, so please use a beefy PC. Also, increasin
 # Demo:
 
 Detecting Rubik's Cubes using YoloV5:
-https://youtu.be/wpi24qvn6uY
+[https://youtu.be/wpi24qvn6uY](https://youtu.be/wpi24qvn6uY)
