@@ -1,5 +1,5 @@
 # PurdueRM-Wiki
-Public Wiki / Documentation for Purdue's Robomasters
+Public Wiki / Documentation for Purdue's Robomasters Club
 
 
 ## How to add a page
