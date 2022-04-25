@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 # Navigating the GitLab Repository
+### By Tom O'Donnell (tkodonne@purdue.edu)
 
  Using the GitLab is one of the first main tasks you should get familiar with. To see documentation of individual portions of the code, see the repo, it's already documented.
 

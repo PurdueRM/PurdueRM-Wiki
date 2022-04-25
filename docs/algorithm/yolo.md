@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 # Setting up YoloV5
+### By Tom O'Donnell (tkodonne@purdue.edu)
 
 You will need Python and Pip installed for this step. Make a new working directory for setting up Yolo.
 

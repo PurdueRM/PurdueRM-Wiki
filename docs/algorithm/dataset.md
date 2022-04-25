@@ -6,6 +6,7 @@ nav_order: 3
 ---
 
 # Making a Good Dataset
+### By Tom O'Donnell (tkodonne@purdue.edu)
 
 **Here I will answer the questions of:**
 - What qualifies as a "good" dataset?
