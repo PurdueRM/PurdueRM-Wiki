@@ -2,7 +2,7 @@
 layout: default
 title: NVIDIA TX2
 parent: Algorithm
-nav_order: 4
+nav_order: 5
 ---
 
 # The NVIDIA Jetson Tx2
