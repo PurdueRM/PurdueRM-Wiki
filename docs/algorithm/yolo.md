@@ -47,5 +47,5 @@ This process will likely take forever, so please use a beefy PC. Also, increasin
 
 # Demo:
 
-Detecting Rubik's Cubes using YoloV5:
-[https://youtu.be/wpi24qvn6uY](https://youtu.be/wpi24qvn6uY)
+Detecting Enemy Robots via YOLOv5:
+[https://youtu.be/4KRM93TuxyA](https://youtu.be/4KRM93TuxyA)
