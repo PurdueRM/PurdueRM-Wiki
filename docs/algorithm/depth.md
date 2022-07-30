@@ -1,9 +1,8 @@
-
 ---
 layout: default
-title: Implementing Depth Estimtion
+title: Implementing Depth Estimation 
 parent: Algorithm
-nav_order: 
+nav_order: 6
 ---
 
 # Implementing Depth/Distance Estimation 
