@@ -30,26 +30,27 @@ Take a look at a diagram of a camera's focal length:
 
 While it may not be immediately clear, you can actually model this situation using similar triangles, one composed of the person's height, their distance to the camera, and the angle of view, and the other triangle composed of the person's apparent height on the sensor, the camera's focal length, and the angle of view:
 
-![img](tri.png)
+![img](tri.PNG)
 
 From here, a pretty neat realization can be made. 
 
 if you know the real size of an object, the camera's focal length, and the object's apparent size (in pixels) in the image, you can calculate how far away the object is!
 
 Via similar triangles:
-![img](simtri.png)
+![img](simtri.PNG)
 
 We then need to find the camera's focal length in pixels, which we can calculate in a series of trials. Simply place an object of known size a known distance from the camera, and use this formula:
-![img](formula.png)
+![img](formula.PNG)
 
 Then using this known focal length, we can solve for any object's distance from the camera:
 
-![img](dist.png)
+![img](dist.PNG)
 
 Here's an example of the process:
-![img](ex.png)
+![img](ex.PNG)
 
 Here's two videos of this depth estimation in action: 
 
-At-home demo: https://www.youtube.com/watch?v=nPkWisaGOGc
-In-competition demo: https://www.youtube.com/watch?v=OgZMPJjoXUE
+At-home demo:  [https://www.youtube.com/watch?v=nPkWisaGOGc](https://www.youtube.com/watch?v=nPkWisaGOGc)
+
+In-competition demo: [https://www.youtube.com/watch?v=OgZMPJjoXUE](https://www.youtube.com/watch?v=OgZMPJjoXUE)
