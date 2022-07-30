@@ -37,9 +37,11 @@ From here, a pretty neat realization can be made.
 if you know the real size of an object, the camera's focal length, and the object's apparent size (in pixels) in the image, you can calculate how far away the object is!
 
 Via similar triangles:
+
 ![img](simtri.PNG)
 
 We then need to find the camera's focal length in pixels, which we can calculate in a series of trials. Simply place an object of known size a known distance from the camera, and use this formula:
+
 ![img](formula.PNG)
 
 Then using this known focal length, we can solve for any object's distance from the camera:
@@ -47,10 +49,10 @@ Then using this known focal length, we can solve for any object's distance from 
 ![img](dist.PNG)
 
 Here's an example of the process:
+
 ![img](ex.PNG)
 
 Here's two videos of this depth estimation in action: 
 
-At-home demo:  [https://www.youtube.com/watch?v=nPkWisaGOGc](https://www.youtube.com/watch?v=nPkWisaGOGc)
-
-In-competition demo: [https://www.youtube.com/watch?v=OgZMPJjoXUE](https://www.youtube.com/watch?v=OgZMPJjoXUE)
+- At-home demo:  [https://www.youtube.com/watch?v=nPkWisaGOGc](https://www.youtube.com/watch?v=nPkWisaGOGc)
+- In-competition demo: [https://www.youtube.com/watch?v=OgZMPJjoXUE](https://www.youtube.com/watch?v=OgZMPJjoXUE)
