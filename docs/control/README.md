@@ -11,28 +11,28 @@ nav_order: <1>
 - Use the Wiki as a Table of Content for Navigation.
 
 ## Contents
-- Control - A General Guide
+- [Control - A General Guide](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Control%20-%20%20A%20General%20Guide.md)
 
-- STM32 Basics
+- [STM32 Basics](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/STM32%20Basics.md)
   - CubeMX & HAL Library
   - Timers & Interrupts
   - GPIO
   - DMA
 
-- Important Theories
+- [Important Theories](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Important%20Theories.md)
   - PWM
   - PID Control
   - Mecanum Wheel Inverse Kinematic
   - Madgwick Orientation Filter for IMU AHRS Estimation
   
-- Communication Protocols
+- [Communication Protocols](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Communication%20Prototols.md)
   - CAN
   - SPI
   - UART/USART
   - IIC/I2C
 
-- Useful Documents
-  - Devices & Datasheets
+- [Useful Documents](https://github.com/RoboMaster-Club/PurdueRM-Wiki/tree/gh-pages/docs/control/Useful%20Documents)
+  - [Devices & Datasheets](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)
     - Control Boards
     - DR16 Remote Control
     - M3508 Motor
@@ -43,9 +43,9 @@ nav_order: <1>
     - Referee System
     - MPU6050 IMU
     
-  - Open-Source Control Codes
+  - [Open-Source Control Codes](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Open-Source%20Control%20Code.md)
     - 2019 DJI Sample Code - Infantry
     - 2022 Shenzhen University - Infantry
     - 2022 Harbin University of Science and Technology - Infantry
     
-- Useful Tools
+- [Useful Tools](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Tools.md)
