@@ -43,8 +43,11 @@ nav_order: <1>
     - Referee System
     
   - [Open-Source Control Codes](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Open-Source%20Control%20Code.md)
-    - 2019 DJI Sample Code - Mecanum Wheel Infantry
-    - 2022 Shenzhen University - AGV Wheel Infantry
-    - 2022 Harbin University of Science and Technology - All Robots
+    - 2021 Shenzhen University - AGV Wheel Infantry
+    - 2021 Harbin University of Science and Technology - All Robots
+    - 2021 Guangzhou City University of Technology - Mecanum Wheel Infantry
+    - 2021 Northeastern University - AGV Wheel Infantry
+    - 2021 Chengdu University of Information Technology - Mecanum Wheel Infantry
+    - 2021 South China University of Technology - AGV Wheel Infantry
     
 - [Useful Tools](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Tools.md)
