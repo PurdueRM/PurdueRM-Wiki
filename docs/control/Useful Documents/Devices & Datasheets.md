@@ -5,7 +5,7 @@ parent: <Control>
 nav_order: <5>
 ---
 # Devices & Datasheets
-- Here is a list of all the devices we use on our robot, and the links to the relavent information & datasheets.
+Here is a list of all the devices we use on our robot, and the links to the relavent information & datasheets.
   
 ### Robomaster Development Board Type A
 - [Product Introduction](https://www.robomaster.com/en-US/products/components/general/development-board)
