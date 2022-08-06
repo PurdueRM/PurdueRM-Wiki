@@ -36,12 +36,11 @@ nav_order: <1>
     - Control Boards
     - DR16 Remote Control
     - M3508 Motor
-    - M6020 Motor
+    - GM6020 Motor
     - M2006 Motor
     - C610 ESC
     - C620 ESC
     - Referee System
-    - MPU6050 IMU
     
   - [Open-Source Control Codes](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Open-Source%20Control%20Code.md)
     - 2019 DJI Sample Code - Infantry
