@@ -33,7 +33,7 @@ nav_order: <1>
 
 - [Useful Documents](https://github.com/RoboMaster-Club/PurdueRM-Wiki/tree/gh-pages/docs/control/Useful%20Documents)
   - [Devices & Datasheets](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)
-    - Control Boards
+    - Robomaster Development Board Type A
     - DR16 Remote Control
     - M3508 Motor
     - GM6020 Motor
