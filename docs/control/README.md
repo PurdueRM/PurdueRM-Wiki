@@ -43,8 +43,8 @@ nav_order: <1>
     - Referee System
     
   - [Open-Source Control Codes](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Open-Source%20Control%20Code.md)
-    - 2019 DJI Sample Code - Infantry
-    - 2022 Shenzhen University - Infantry
-    - 2022 Harbin University of Science and Technology - Infantry
+    - 2019 DJI Sample Code - Mecanum Wheel Infantry
+    - 2022 Shenzhen University - AGV Wheel Infantry
+    - 2022 Harbin University of Science and Technology - All Robots
     
 - [Useful Tools](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Tools.md)
