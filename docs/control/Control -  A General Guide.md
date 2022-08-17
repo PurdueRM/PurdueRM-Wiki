@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Control
+title: General Guide
+parent: Control
 nav_order: 1
-has_children: true 
 ---
 # Control - A General Guide
