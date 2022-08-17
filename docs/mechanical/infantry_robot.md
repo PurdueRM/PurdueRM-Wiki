@@ -8,7 +8,8 @@ nav_order: 2
 # Infantry Robot Design
 ![img](infantry_robot_pic_01.jpg)
 ## Design
-### Standard Robot Building Parameters 
+### Standard Robot Building Parameters
+
 | Item | Limit | Remarks|
 | ------------- | ------------- | ------------- |
 | Maximum Total Power Supply Capacity (Wh) | 200 | - |
