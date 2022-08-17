@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standard Robot
-parent: robot_design
+parent: Robot Design
 nav_order: 1
 ---
 
