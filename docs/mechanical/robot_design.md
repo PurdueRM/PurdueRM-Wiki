@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Robot Design
+title: Standard Robot
 parent: Mechanical
-nav_order: 1
-# has_children: true
+nav_order: 2
 ---
 
 # Robot Design
