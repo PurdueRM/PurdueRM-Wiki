@@ -2,7 +2,7 @@
 layout: default
 title: YoloV5 Annotation Forms
 parent: Algorithm
-nav_order: 
+nav_order: 7
 ---
 
 # Understanding the YoloV5 Annotation Format
