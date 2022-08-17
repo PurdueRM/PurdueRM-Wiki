@@ -12,7 +12,7 @@ has_children: true
 Members will also learn to design an efficient manufacturing process and perform basic failure mode analysis to prevent potential hazards and malfunctions. -->
 ## Contents
 - [Robot Design]
-    - Standard Robot
+    - Infantry Robot
     - Hero Robot
     - Engineering Robot
 - [Design Library]
