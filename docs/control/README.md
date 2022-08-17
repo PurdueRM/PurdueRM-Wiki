@@ -1,8 +1,8 @@
 ---
 layout: default
-title: <README>
-parent: <Control>
-nav_order: <1>
+title: README
+parent: Control
+nav_order: 1
 ---
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RoboMaster-Club/PurdueRM-Wiki/pulse) 
 [![Maintainer](https://img.shields.io/badge/Maintainer-Leo-blue)](https://github.com/CuboiLeo)

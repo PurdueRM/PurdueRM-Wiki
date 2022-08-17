@@ -1,8 +1,8 @@
 ---
 layout: default
-title: <Devices & Datasheets>
-parent: <Control>
-nav_order: <5>
+title: Devices & Datasheets
+parent: Control
+nav_order: 5
 ---
 # Devices & Datasheets
 Here is a list of all the devices we use on our robot, and the links to the relavent information & datasheets.
