@@ -1,6 +1,6 @@
 ---
 layout: default
-title: page name
+title: Control
 nav_order: 1
 has_children: true 
 ---
