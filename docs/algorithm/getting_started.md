@@ -18,7 +18,7 @@ TODO (Louis)
 # Tools
 ## C++
 C++ is the most commonly used language for the algo team. C++ is an Object-Oriented langue widely used due to it's fast execution time and ease of use. We uses C++ because of those properties, but also various packages available in C++ (ie. ROS, TensorRT, CUDA Kernel). 
-A strong foundation in C++ is highly recommended as most of our impletion work will be in C++. Luckily, resources for learning C++ is widely available. To list some example:
+A strong foundation in C++ is highly recommended as all of our implementation work will be in C++. Luckily, resources for learning C++ is widely available. To list some example:
 - [learningcpp.com](https://www.learncpp.com/)  
 - [Codecademy](https://www.codecademy.com/learn/learn-c-plus-plus)
 
