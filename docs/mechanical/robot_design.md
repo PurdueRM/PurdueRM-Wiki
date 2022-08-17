@@ -3,12 +3,12 @@ layout: default
 title: Robot Design
 parent: Mechanical
 nav_order: 1
-has_children: true
+# has_children: true
 ---
 
 # Robot Design
 
-Here we are going to show you robot design specifications and review our past robot design. 
+<!-- Here we are going to show you robot design specifications and review our past robot design. 
 
 ## Design Tool
 - SolidWorks
@@ -40,4 +40,4 @@ Providing air support and a bird view for the entire team
 Launching Darts to attack enemy's Output and Base
 
 ### Radar
-Equipped with the most excellent computing power to provide vision and warning information to the entire team
+Equipped with the most excellent computing power to provide vision and warning information to the entire team -->
