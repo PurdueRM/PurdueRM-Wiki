@@ -9,7 +9,7 @@ nav_order: 1
 Here we present our past Standard Robot's designs and review some critical strcuture designs. 
 
 ## Standard Robot Building Parameters
-
+<!-- table -->
 | Item | Limit | Remarks|
 | ------------- | ------------- | ------------- |
 | Maximum Total Power Supply Capacity (Wh) | 200 | - |
@@ -21,12 +21,41 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Maximum Expansion Size (mm, LxWxH) | 800x800x800 | Its orthographic projection on the ground should not exceed a 800*800 square |
 
 ![img](infantry_robot_pic_01.jpg)
-
-## 1st Generation
-![img](pictures/standard_robot/standard_1st_iter.png)
+## 3rd Generation
+<!-- pictures -->
+![img](pictures/standard_robot/standard_3rd_iter_cad.png)
+<!-- table -->
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
-| Built date | 2019 | RMUL |
+| Built date | 2022 | RMUL |
+| Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
+| Suspension | Independent suspension | - |
+| Gimbal | Two-axis gimbal | Powered by GM6020 |
+| Projectile Tank | On the pitch axis | close to the flywheels | 
+| Shooting | Two drone propeller motors | Side by side flywheels |
+| Materials | Fiberglass, Aluminum | - |
+
+## Actual Robot
+![img](pictures/standard_robot/standard_3rd_iter_actual.jpg)
+
+### Chassis
+<!-- pictures -->
+![img](pictures/standard_robot/standard_3rd_iter_chassis.png)
+
+### Suspension
+<!-- pictures -->
+![img](pictures/standard_robot/standard_3rd_iter_suspension.png)
+
+## 2nd Generation
+
+
+## 1st Generation
+<!-- pictures -->
+![img](pictures/standard_robot/standard_1st_iter.png)
+<!-- table -->
+| Item | Features | Description|
+| ------------- | ------------- | ------------- |
+| Built date | 2019 | RMUC |
 | Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
 | Suspension | Independent suspension | - |
 | Gimbal | Two-axis gimbal | Powered by RM6025 |
