@@ -10,7 +10,6 @@ Here we present our past Standard Robot's designs and review some critical strcu
 
 ## Standard Robot Building Parameters
 
-<!-- table -->
 | Item | Limit | Remarks|
 | ------------- | ------------- | ------------- |
 | Maximum Total Power Supply Capacity (Wh) | 200 | - |
@@ -26,7 +25,6 @@ Here we present our past Standard Robot's designs and review some critical strcu
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_cad.png)
 
-<!-- table -->
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
 | Built Date | 2022 | RMUL |
@@ -43,7 +41,7 @@ Here we present our past Standard Robot's designs and review some critical strcu
 ### Chassis
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_chassis.png)
-This is a brand-new chassis comparing to the 1st and 2nd gen Standards. We designed a structural frame by using 15x15x2 mm aluminum tubes. Instead of welding them together, we chosen to design some "L" and "T" shape fiberglass plates to connect all the tubes. 
+This is a brand-new chassis compared to the 1st and 2nd gen Standards. We designed a structural frame by using 15x15x2 mm aluminum tubes. Instead of welding them together, we designed some "L" and "T" shape fiberglass plates to connect all the tubes. 
 
 ### Wheel and Suspension
 <!-- pictures -->
@@ -57,7 +55,6 @@ We gave up the four-bar linkage suspension system because the manufacturing cost
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_1st_iter.png)
 
-<!-- table -->
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
 | Built Date | 2019 | RMUC |
