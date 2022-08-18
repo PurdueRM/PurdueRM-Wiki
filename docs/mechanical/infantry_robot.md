@@ -9,6 +9,7 @@ nav_order: 1
 Here we present our past Standard Robot's designs and review some critical strcuture designs. 
 
 ## Standard Robot Building Parameters
+
 <!-- table -->
 | Item | Limit | Remarks|
 | ------------- | ------------- | ------------- |
@@ -24,10 +25,11 @@ Here we present our past Standard Robot's designs and review some critical strcu
 ## 3rd Generation
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_cad.png)
+
 <!-- table -->
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
-| Built date | 2022 | RMUL |
+| Built Date | 2022 | RMUL |
 | Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
 | Suspension | Independent suspension | - |
 | Gimbal | Two-axis gimbal | Powered by GM6020 |
@@ -35,16 +37,18 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Shooting | Two drone propeller motors | Side by side flywheels |
 | Materials | Fiberglass, Aluminum | - |
 
-## Actual Robot
+### Actual Robot
 ![img](pictures/standard_robot/standard_3rd_iter_actual.jpg)
 
 ### Chassis
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_chassis.png)
+This is a brand-new chassis comparing to the 1st and 2nd gen Standards. We designed a structural frame by using 15x15x2 mm aluminum tubes. Instead of welding them together, we chosen to design some "L" and "T" shape fiberglass plates to connect all the tubes. 
 
-### Suspension
+### Wheel and Suspension
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_suspension.png)
+We gave up the four-bar linkage suspension system because the manufacturing cost was high, and it wasn't easy to fix when some parts failed. Therefore, we designed a two-side supporting wheel and suspension system. A Mecanum wheel is supported and connected in this system by a hub on each side, like a sandwich. Bearings support the hub on each side. Two flange deep-groove ball bearings support the side connected to the motor. To ensure the bearing on both sides is coaxial, a self-aligning ball bearing is placed on another side to support the hub. 
 
 ## 2nd Generation
 
@@ -52,10 +56,11 @@ Here we present our past Standard Robot's designs and review some critical strcu
 ## 1st Generation
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_1st_iter.png)
+
 <!-- table -->
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
-| Built date | 2019 | RMUC |
+| Built Date | 2019 | RMUC |
 | Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
 | Suspension | Independent suspension | - |
 | Gimbal | Two-axis gimbal | Powered by RM6025 |
@@ -68,12 +73,11 @@ Here we present our past Standard Robot's designs and review some critical strcu
 
 ### Chassis
 <!-- pictures -->
-Chassis
 ![img](pictures/standard_robot/standard_robot_chassis01.png) 
 
 Couple large carbon-fiber sheets are supported by a welded stainless-steel frame. A T-shape bumper front of the robot chassis to protect suspension from the collsion. Four vertical standoff are mounted on the bottom plate and top plate of the chassis in order to solidly support the suspension system. 
 
-### Suspension
+### Wheel and Suspension
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_suspension_design.png) 
 
