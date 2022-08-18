@@ -35,15 +35,16 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Materials | Carbon fibers, Stainless steel frame, Aluminum | - |
 
 <!-- pictures -->
-CAD file           |  Actual Robot 
-:-------------------------:|:-------------------------:
-![img](pictures/standard_robot/standard_robot_01.jpg) | ![img](pictures/standard_robot/standard_robot_02.jpg) 
+CAD file 
+![img](pictures/standard_robot/standard_1st_iter.png)
+Acutal built
+![img](pictures/standard_robot/standard_robot_02.jpg) 
 
 ### Chassis
+
 <!-- pictures -->
-Chassis       |  Chassis 
-:-------------------------:|:-------------------------:
-![img](pictures/standard_robot/standard_robot_chassis01.png) | ![img](pictures/standard_robot/standard_robot_chassis02.png)
+Chassis
+![img](pictures/standard_robot/standard_robot_chassis01.png) 
 
 Couple large carbon-fiber sheets are supported by a welded stainless-steel frame. A T-shape bumper front of the robot chassis to protect suspension from the collsion. Four vertical standoff are mounted on the bottom plate and top plate of the chassis in order to solidly support the suspension system. 
 
@@ -52,9 +53,7 @@ Couple large carbon-fiber sheets are supported by a welded stainless-steel frame
 ### Suspension
 
 <!-- pictures -->
-Supension        |  Suspension Cross Section View
-:-------------------------:|:-------------------------:
-![img](pictures/standard_robot/standard_suspension_02.png) | ![img](pictures/standard_robot/standard_suspension_01.png)
+![img](pictures/standard_robot/standard_suspension_design.png) 
 
 A 4-link suspension system was deisgned for 1st generation Standard. There are two reasons to install a suspension system in our chassis. First, we are using Mecanum wheels, so we have to ensure robot's four wheels are firmly attached to the gound to help the control team better programming the chassis's motion. Secondly, there are some small bumps in the battle field. A suspension can help the robot to eliminate large vibration and protect robot. 
 
@@ -63,10 +62,6 @@ The Mecanum wheel is connected to the motor by a aluminum hub. Even though this 
 ### Gimbal
 
 <!-- pictures -->
-Gimbal        |  Gimbal Cross Section 
-:-------------------------:|:-------------------------:
-![img](pictures/standard_robot/standard_gimbal_2.png) | ![img](pictures/standard_robot/standard_gimbal_1.png)
-![img](pictures/standard_robot/standard_gimbal_3.png) | ![img](pictures/standard_robot/standard_gimbal_4.png)
-
+![img](pictures/standard_robot/standard_gimbal_design.png)
 Two strategies are applied to reduce the load on both yaw and pitch axis motors. 
  - A four-bar
