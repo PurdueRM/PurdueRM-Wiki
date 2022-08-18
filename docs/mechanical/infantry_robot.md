@@ -50,9 +50,20 @@ Couple large carbon-fiber sheets are supported by a welded stainless-steel frame
 
 
 ### Suspension
+
 <!-- pictures -->
-| Chassis       |  Chassis |
+| Supension        |  Suspension Cross Section View |
 | -------------------------| ------------------------- |
-| ![img](standard_robot_chassis01.png) | ![img](standard_robot_chassis02.png) |
+| ![img](standard_suspension_02.png) | ![img](standard_suspension_01.png) |
 
 A 4-link suspension system was deisgned for 1st generation Standard. There are two reasons to install a suspension system in our chassis. First, we are using Mecanum wheels, so we have to ensure robot's four wheels are firmly attached to the gound to help the control team better programming the chassis's motion. Secondly, there are some small bumps in the battle field. A suspension can help the robot to eliminate large vibration and protect robot. 
+
+The Mecanum wheel is connected to the motor by a aluminum hub. Even though this hub solidly connects a wheel and M3508 motor, two flange deep-groove ball bearings (red in picture) are supporting the hub shaft to accommodate radial load from the chassis, and protect the output shaft of the motor. 
+
+### Gimbal
+
+<!-- pictures -->
+| Gimbal        |  Gimbal Cross Section |
+| -------------------------| ------------------------- |
+| ![img](standard_gimbal_2.png) | ![img](standard_gimbal_1.png) |
+| ![img](standard_gimbal_3.png) | ![img](standard_gimbal_4.png) |
