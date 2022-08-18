@@ -2,13 +2,13 @@
 layout: default
 title: Standard Robot
 parent: Mechanical
-nav_order: 2
+nav_order: 1
 ---
 
-# Infantry Robot Design
-![img](infantry_robot_pic_01.jpg)
-## Design
-### Standard Robot Building Parameters
+# Standard Robot Design
+Here we present our past Standard Robot's designs and review some critical strcuture designs. 
+
+## Standard Robot Building Parameters
 
 | Item | Limit | Remarks|
 | ------------- | ------------- | ------------- |
@@ -17,6 +17,22 @@ nav_order: 2
 | Launching Mechanism | A 17mm Launching Mechanism | - |
 | Projectile Supply Capability | Can only receive projectiles | - |
 | Maximum Weight (kg) | 25 | Includes battery weight, but not the weight of the Referee System |
-| Maximum Initial Size (mm, L*W*H) | 600*600*500 | Its orthographic projection on the ground should not exceed a 600*600 square |
-| Maximum Expansion Size (mm, L*W*H) | 800*800*800 | Its orthographic projection on the ground should not exceed a 800*800 square |
+| Maximum Initial Size (mm, LxWxH) | 600*600*500 | Its orthographic projection on the ground should not exceed a 600*600 square |
+| Maximum Expansion Size (mm, LxWxH) | 800*800*800 | Its orthographic projection on the ground should not exceed a 800*800 square |
 
+![img](infantry_robot_pic_01.jpg)
+
+## 1st Generation
+
+| Item | Features | Description|
+| ------------- | ------------- | ------------- |
+| Built date | 2019 | - |
+| Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
+| Suspension | Independent suspension | - |
+| Gimbal | Two-axis gimbal | Powered by RM6025 |
+| Projectile Tank | Under the gimabl | Chain route from bottom to top | 
+| Shooting | Two drone propeller motors | Side by side flywheels |
+
+| CAD file           |  Actual Robot |
+| -------------------------| ------------------------- |
+| ![img](standard_robot_01.jpg) | ![img](standard_robot_02.jpg) |

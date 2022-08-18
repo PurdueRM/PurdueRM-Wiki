@@ -24,8 +24,8 @@ Here we are going to show you robot design specifications and review our past ro
 - SolidWorks
 
 ## Design Library
-    - LINKable Part Community
-    - Misumi -->
+- LINKable Part Community
+- Misumi
 
 ## Overview of Robot Fleet
 There are **7** different kinds of robots in total in [RoboMaster University Championship (RMUC)](https://www.robomaster.com/en-US/robo/rm?djifrom=nav). They are **Standard**, **Hero**, **Engineer**, **Sentry**, **Aerial**, **Dart System** and **Radar**. However, the North America region is only hosing [RoboMaster University League (RMUL)](https://www.robomaster.com/en-US/robo/college-league?djifrom=nav) competition, which includes 3V3 Confrontation and Standard Confrontation.
