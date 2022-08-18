@@ -23,7 +23,7 @@ Here we present our past Standard Robot's designs and review some critical strcu
 ![img](infantry_robot_pic_01.jpg)
 
 ## 1st Generation
-
+![img](pictures/standard_robot/standard_1st_iter.png)
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
 | Built date | 2019 | RMUL |
@@ -34,10 +34,7 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Shooting | Two drone propeller motors | Side by side flywheels |
 | Materials | Carbon fibers, Stainless steel frame, Aluminum | - |
 
-<!-- pictures -->
-CAD file 
-![img](pictures/standard_robot/standard_1st_iter.png)
-Acutal built
+### Acutal Robot
 ![img](pictures/standard_robot/standard_robot_02.jpg) 
 
 ### Chassis
@@ -64,4 +61,10 @@ The Mecanum wheel is connected to the motor by a aluminum hub. Even though this 
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_gimbal_design.png)
 Two strategies are applied to reduce the load on both yaw and pitch axis motors. 
- - A four-bar
+ - A four-bar linkage is utilized to actuate both axis, as well as saves the space and lower the center of gravity
+ - Projectile tank is placed on the chassis instead of on the pitch axis, so it highly reduce the inertia of the pitch axis.
+
+A needle roller thrust bearing(red) and a deep-groove ball(blue) bearing are placed on yaw axis. The needle roller thrust bearing can be fitted to a small space but support a large axial load. By combing thrust bearing and deep-groove bearing, predominantly supports radial load, we can well fit amd mobilize the gimbal yaw axis. 
+
+ ### Projectile Shooting & Feeding
+ ![img](pictures/standard_robot/standard_shooting_feeding_design.png)
