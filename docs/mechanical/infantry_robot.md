@@ -17,8 +17,8 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Launching Mechanism | A 17mm Launching Mechanism | - |
 | Projectile Supply Capability | Can only receive projectiles | - |
 | Maximum Weight (kg) | 25 | Includes battery weight, but not the weight of the Referee System |
-| Maximum Initial Size (mm, LxWxH) | 600*600*500 | Its orthographic projection on the ground should not exceed a 600*600 square |
-| Maximum Expansion Size (mm, LxWxH) | 800*800*800 | Its orthographic projection on the ground should not exceed a 800*800 square |
+| Maximum Initial Size (mm, LxWxH) | 600x600x500 | Its orthographic projection on the ground should not exceed a 600*600 square |
+| Maximum Expansion Size (mm, LxWxH) | 800x800x800 | Its orthographic projection on the ground should not exceed a 800*800 square |
 
 ![img](infantry_robot_pic_01.jpg)
 
@@ -32,7 +32,27 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Gimbal | Two-axis gimbal | Powered by RM6025 |
 | Projectile Tank | Under the gimabl | Chain route from bottom to top | 
 | Shooting | Two drone propeller motors | Side by side flywheels |
+| Materials | Carbon fibers, Stainless steel frame, Aluminum | - |
 
+<!-- pictures -->
 | CAD file           |  Actual Robot |
 | -------------------------| ------------------------- |
 | ![img](standard_robot_01.jpg) | ![img](standard_robot_02.jpg) |
+
+### Chassis
+<!-- pictures -->
+| Chassis       |  Chassis |
+| -------------------------| ------------------------- |
+| ![img](standard_robot_chassis01.png) | ![img](standard_robot_chassis02.png) |
+
+Couple large carbon-fiber sheets are supported by a welded stainless-steel frame. A T-shape bumper front of the robot chassis to protect suspension from the collsion. Four vertical standoff are mounted on the bottom plate and top plate of the chassis in order to solidly support the suspension system. 
+
+
+
+### Suspension
+<!-- pictures -->
+| Chassis       |  Chassis |
+| -------------------------| ------------------------- |
+| ![img](standard_robot_chassis01.png) | ![img](standard_robot_chassis02.png) |
+
+A 4-link suspension system was deisgned for 1st generation Standard. There are two reasons to install a suspension system in our chassis. First, we are using Mecanum wheels, so we have to ensure robot's four wheels are firmly attached to the gound to help the control team better programming the chassis's motion. Secondly, there are some small bumps in the battle field. A suspension can help the robot to eliminate large vibration and protect robot. 
