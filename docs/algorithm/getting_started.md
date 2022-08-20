@@ -44,6 +44,8 @@ Some of the library we uses interface directly with the hardware, so a Virtual M
 ## Git
 Git is an distributed version control system. Trough out the season, you will collaborate with many others while writing code. Git will allow us to revert our code back to previous changes and enabling multiple people to work on the same repository. 
 
+Knowing the basics of Git (commit, push, pull) is mandatory given it's importance. 
+
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 
 
@@ -53,6 +55,8 @@ CMake is a tool for program compilation and linking. Most of our project utilize
 - [CMake Official Guide](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
 
 ## OpenCV
+
+
 
 ## ROS
 
