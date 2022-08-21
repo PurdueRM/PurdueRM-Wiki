@@ -34,8 +34,8 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
 | Suspension | Independent suspension | - |
 | Gimbal | Two-axis gimbal | Powered by [GM6020](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md) |
-| Projectile Tank | On the pitch axis | close to the flywheels | 
-| Shooting | Two drone propeller motors | Side by side flywheels |
+| Projectile Tank | On the pitch axis | Close to the flywheels | 
+| Shooting | M3508 Motors without gearbox | Side by side flywheels |
 | Materials | Fiberglass, Aluminum | - |
 
 ### Actual Robot
@@ -69,7 +69,30 @@ We used M3508 motors to power the flywheels, but we disassembled the planetary g
 An [M2006](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md) motor powers a rotor inside the tank to feed the projectiles one by one toward the flywheels. We faced projectile jamming at the tank exit during the competition. We solved this problem by placing some soft material on the top of the exit to stop projectiles from falling down to the exit. 
 
 ## 2nd Generation
+<!-- pictures -->
+![img](pictures/standard_robot/standard_2nd_iter_cad.png)
 
+| Item | Features | Description|
+| ------------- | ------------- | ------------- |
+| Built Date | 2019&2022 | RMUC&ICRA |
+| Design by| Zijian He (he348@purdue.edu)| [Download](https://drive.google.com/file/d/1YCemUNn1df2EkYXobL3D-QOv4Kax6j_P/view?usp=sharing) |
+| Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
+| Suspension | Independent suspension | - |
+| Gimbal | Two-axis gimbal | Powered by [GM6020](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md) |
+| Projectile Tank | Under the gimabl| Chain route from bottom to top | 
+| Shooting | Two drone propeller motors | Side by side flywheels |
+| Materials | Fiberglass, Aluminum | - |
+
+### Actual Robot
+![img](pictures/standard_robot/standard_2nd_iter_actual.jpg)
+
+
+### Chassis
+We kept using the chassis from last version of Standard. We made slightly changes on mounting holes to fit our new gimbal design.
+
+### Gimbal
+![img](pictures/standard_robot/standard_2nd_iter_gimbal.png)
+Gimbal system is a mainly update of 2nd generation Standard. We replaced the older gimbal motor by [GM6020](https://www.robomaster.com/en-US/products/components/general/gm6020/info). The motor adopts a hollow shaft design that offers high torque density, control precision, flexible interaction methods, and intelligent protection. 
 
 ## 1st Generation
 <!-- pictures -->
