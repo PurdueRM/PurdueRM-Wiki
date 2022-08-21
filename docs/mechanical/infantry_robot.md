@@ -8,6 +8,8 @@ nav_order: 1
 # Standard Robot Design
 Here we present our past Standard Robot's designs and review some critical strcuture designs. 
 
+![img](infantry_robot_pic_01.jpg)
+ 
 ## Standard Robot Building Parameters
 
 | Item | Limit | Remarks|
@@ -20,7 +22,7 @@ Here we present our past Standard Robot's designs and review some critical strcu
 | Maximum Initial Size (mm, LxWxH) | 600x600x500 | Its orthographic projection on the ground should not exceed a 600*600 square |
 | Maximum Expansion Size (mm, LxWxH) | 800x800x800 | Its orthographic projection on the ground should not exceed a 800*800 square |
 
-![img](infantry_robot_pic_01.jpg)
+
 ## 3rd Generation
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_cad.png)
@@ -47,6 +49,23 @@ This is a brand-new chassis compared to the 1st and 2nd gen Standards. We design
 <!-- pictures -->
 ![img](pictures/standard_robot/standard_3rd_iter_suspension.png)
 We gave up the four-bar linkage suspension system because the manufacturing cost was high, and it wasn't easy to fix when some parts failed. Therefore, we designed a two-side supporting wheel and suspension system. A Mecanum wheel is supported and connected in this system by a hub on each side, like a sandwich. Bearings support the hub on each side. Two flange deep-groove ball bearings support the side connected to the motor. To ensure the bearing on both sides is coaxial, a self-aligning ball bearing is placed on another side to support the hub. 
+
+### Gimbal - Yaw
+<!-- pictures -->
+![img](pictures/standard_robot/standard_3rd_iter_gimbal_yaw.png)
+We integrated a slip ring in the middle of this new yaw-axis design to pass through all the signal and power wires from the chassis to the compononts above the yaw axis. In this case, we are able to spin the gimbal around the yaw axis without any angle limitations. A cross roller bearing supports the hub of this yaw axis, which can handle radial, thrust and moment loads at the same time. The slip ring has 24 cahnnels. 
+
+### Gimbal - Pitch
+<!-- pictures -->
+![img](pictures/standard_robot/standard_3rd_iter_gimbal_pitch.png)
+Like the 1st generation standard robot, we moved the pitch-axis motor from the top to the gimbal's side to lower the center of gravity. We used a two-bar linkage to manipulate the pitch axis, and the mounting point is closer to the bullet tank.
+
+ ### Projectile Shooting and Feeding
+<!-- pictures -->
+![img](pictures/standard_robot/standard_3rd_iter_projectile_shooting_feeding.png)
+We used M3508 motors to power the flywheels, but we disassembled the planetary gearbox so that they could reach to highest rpm. We customized two Polyurethane(PU) friction wheels with D55 hardness, mounting them to those two motors to shoot projectiles.
+
+An M2006 motor powers a rotor inside the tank to feed the projectiles one by one toward the flywheels. We faced projectile jamming at the tank exit during the competition. We solved this problem by placing some soft material on the top of the exit to stop projectiles from falling down to the exit. 
 
 ## 2nd Generation
 
