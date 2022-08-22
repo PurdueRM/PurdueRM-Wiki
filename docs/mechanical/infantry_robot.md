@@ -75,7 +75,7 @@ An [M2006](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/c
 | Item | Features | Description|
 | ------------- | ------------- | ------------- |
 | Built Date | 2019&2022 | RMUC&ICRA |
-| Design by| Zijian He (he348@purdue.edu)| [Download](https://drive.google.com/file/d/1YCemUNn1df2EkYXobL3D-QOv4Kax6j_P/view?usp=sharing) |
+| Design by| Zijian He (he348@purdue.edu)| [Download](https://drive.google.com/file/d/16ofBFMMkNPYAw_EBsra_WVcw6TAeH8vW/view?usp=sharing) |
 | Chassis | four-Wheel mecanum drive | Powered by [M3508 Motors](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)|
 | Suspension | Independent suspension | - |
 | Gimbal | Two-axis gimbal | Powered by [GM6020](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md) |
