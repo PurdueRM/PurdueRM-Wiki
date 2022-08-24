@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Git
-parent: Getting Started
+parent: Algorithm
 nav_order: 1
 has_children: false
 ---
