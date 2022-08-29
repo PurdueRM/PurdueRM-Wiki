@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Adding Wiki Pages
-nav_order: 0
+title: Contributing to the Wiki
+nav_order:
 has_children: true
 ---
 
-# Adding a Page to the Wiki:
+# How to Contribute to the Wiki
 
 Go under your team's folder, and make a new Markdown (`.md`) file. 
 To the top of the file, add a header so Jekyll knows how to interpret the page.
