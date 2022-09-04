@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributing to the Wiki
-nav_order:
+nav_order: 2
 has_children: true
 ---
 
