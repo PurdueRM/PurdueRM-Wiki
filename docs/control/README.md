@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Control
-nav_order: 
+nav_order: 6
 has_children: true 
 ---
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RoboMaster-Club/PurdueRM-Wiki/pulse) 
