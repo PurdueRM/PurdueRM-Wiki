@@ -5,47 +5,11 @@ parent: Control
 nav_order: 1
 ---
 # Control - A General Guide
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RoboMaster-Club/PurdueRM-Wiki/pulse) 
-[![Maintainer](https://img.shields.io/badge/Maintainer-Leo-blue)](https://github.com/CuboiLeo)
 
-## Contents
-- [Control - A General Guide](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Control%20-%20%20A%20General%20Guide.md)
+The Control Team is a crucial part of the competition. We have seen many teams with fascinating mechanical & electrical design, but failed to design a feasible control system that limited their performance on the field. The robot may even kill itself if its shooting speed went above the limit or chassis power went too high. Therefore, the control team aims to design a control system that not only allows the general movement & shooting of the robot, but also optimize the robot performance through smoother and more responsive human-robot interaction, and automatic mode switching based on the feedback from the referee system. 
+Members will learn STM32 as the embedded system, communication protocols, feedback control, and many related knowledge on the way as they proceed to the design & optimization of the competition robot control system.
 
-- [STM32 Basics](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/STM32%20Basics.md)
-  - CubeMX & HAL Library
-  - Timers & Interrupts
-  - GPIO
-  - DMA
-
-- [Important Theories](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Important%20Theories.md)
-  - PWM
-  - PID Control
-  - Mecanum Wheel Inverse Kinematic
-  - Madgwick Orientation Filter for IMU AHRS Estimation
-  
-- [Communication Protocols](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Communication%20Prototols.md)
-  - CAN
-  - SPI
-  - UART/USART
-  - IIC/I2C
-
-- [Useful Documents](https://github.com/RoboMaster-Club/PurdueRM-Wiki/tree/gh-pages/docs/control/Useful%20Documents)
-  - [Devices & Datasheets](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Devices%20%26%20Datasheets.md)
-    - Robomaster Development Board Type A
-    - DR16 Remote Control
-    - M3508 Motor
-    - GM6020 Motor
-    - M2006 Motor
-    - C610 ESC
-    - C620 ESC
-    - Referee System
-    
-  - [Open-Source Control Codes](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Documents/Open-Source%20Control%20Code.md)
-    - 2021 Shenzhen University - AGV Wheel Infantry
-    - 2021 Harbin University of Science and Technology - All Robots
-    - 2021 Guangzhou City University of Technology - Mecanum Wheel Infantry
-    - 2021 Northeastern University - AGV Wheel Infantry
-    - 2021 Chengdu University of Information Technology - Mecanum Wheel Infantry
-    - 2021 South China University of Technology - AGV Wheel Infantry
-    
-- [Useful Tools](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Useful%20Tools.md)
+## Tools (Click to go to the Download Link)
+- [Keil uVison 5](https://www.keil.com/demo/eval/arm.htm#!#DOWNLOAD)
+- [STM32 CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
+- [Git GUI](https://git-scm.com/download/win)
