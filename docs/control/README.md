@@ -16,11 +16,9 @@ has_children: true
 - [STM32 Basics](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/STM32%20Basics.md)
   - CubeMX & HAL Library
   - Timers & Interrupts
-  - GPIO
-  - DMA
+  - GPIO & PWM
 
 - [Important Theories](https://github.com/RoboMaster-Club/PurdueRM-Wiki/blob/gh-pages/docs/control/Important%20Theories.md)
-  - PWM
   - PID Control
   - Mecanum Wheel Inverse Kinematic
   - Madgwick Orientation Filter for IMU AHRS Estimation
