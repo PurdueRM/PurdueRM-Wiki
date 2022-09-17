@@ -4,7 +4,6 @@ title: Design Library
 parent: Mechanical
 nav_order: 2
 ---
-
 # Design Library
 Here we present parameters of certain standard components, including screws, nuts, standardoff, retaining rings and bearings. 
 
