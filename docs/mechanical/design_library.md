@@ -30,3 +30,20 @@ Items such as:
  - Precision spacing
 
 ![img](pictures\design_library\shoulder_screw.png)
+
+# Nuts
+To make sure the fastening of the each part on the robot, we only use the Nylon-Insert Locknuts. a nylon collar is placed at the end of the nut that increases friction on the screw thread. The screw thread does not cut into the nylon insert, however, the insert deforms elastically over the threads as tightening pressure is applied. The insert locks the nut against the screw as a result of friction, caused by the radial compressive force resulting from the deformation of the nylon. 
+
+![img](pictures\design_library\locknuts.png)
+
+# Bearing
+
+## Mini Flange Bearing
+The inner diameter from 2mm to 9mm
+ - d: inner diameter
+ - D: outer diameter
+ - D1: flange diameter
+ - B: bearing thickness
+ - B1: flange thickness
+![img](pictures\design_library\flange_bearing_01.png)
+![img](pictures\design_library\flange_bearing_02.jpg)
