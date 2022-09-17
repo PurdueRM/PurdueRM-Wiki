@@ -47,3 +47,7 @@ The inner diameter from 2mm to 9mm
  - B1: flange thickness
 ![img](pictures\design_library\flange_bearing_01.png)
 ![img](pictures\design_library\flange_bearing_02.jpg)
+
+## Mini Deep-groove Bearing
+
+![img](pictures\design_library\deep_groove_bearing.jpg)
