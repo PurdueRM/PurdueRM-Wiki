@@ -3,7 +3,7 @@ layout: default
 title: Getting Started
 parent: Algorithm
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 # Getting Started   
@@ -62,15 +62,27 @@ OpenCV is a C++ and Python library with various image processing utilities, trad
 
 ## ROS
 
-ROS stands for Robotic Operating System. It is an abstraction layer designed to run on Ubuntu. The system facilitate programs (called nodes) running parallel while communicate trough network ports (local or remote).
+~~ROS stands for Robotic Operating System. It is an abstraction layer designed to run on Ubuntu. The system facilitate programs (called nodes) running parallel while communicate trough network ports (local or remote).~~
 
-Using ROS, the program can be highly modularized and expendable. 
+~~Using ROS, the program can be highly modularized and expendable.~~ 
 
-- [ROS Ubuntu Installion Guide](http://wiki.ros.org/ROS/Installation)
+<!-- - [ROS Ubuntu Installion Guide](http://wiki.ros.org/ROS/Installation)
 - [ROS Windows WSL Installion Guide](https://jackkawell.wordpress.com/2020/06/12/ros-wsl2/)
-- [Offical ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+- [Offical ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) -->
+
+We are in the process of changing to ROS2, there will be more deities later. If you want to get a head start, install [ROS2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation.html) for [Ubuntu 20.04](https://releases.ubuntu.com/focal/). 
 
 ## Termios (UART) 
+Termios is a Linux library designed for UART communication while maintaining the simplicity of the C++ System I/O functions. 
+
+- [UART Basics](https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html)
+- [Termios Tutorial](https://blog.mbedded.ninja/programming/operating-systems/linux/linux-serial-ports-using-c-cpp/)
+
+Here are some note for UART:
+- RX / TX: UART is bidirectional, the RX port is for receiving, and TX port for transmission. 
+- GND: If transmitting between devices, make sure the devices are grounded trough the shortest path possible inorder to avoid ground drift. 
+- VCC: For each device, make sure the voltage output is accepted by the receiving device. 
+- Baud Rate: Certain devices only support a limited amount of baud rate. We want the baud rate to be as fast as possible while maintaining no error.  
 
 ## Machine Learning
 
