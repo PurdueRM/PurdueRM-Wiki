@@ -64,7 +64,7 @@ OpenCV is a C++ and Python library with various image processing utilities, trad
 
 ~~ROS stands for Robotic Operating System. It is an abstraction layer designed to run on Ubuntu. The system facilitate programs (called nodes) running parallel while communicate trough network ports (local or remote).~~
 
-~~Using ROS, the program can be highly modularized and expendable.~~ 
+Using ROS, the program can be highly modularized and expendable.
 
 <!-- - [ROS Ubuntu Installion Guide](http://wiki.ros.org/ROS/Installation)
 - [ROS Windows WSL Installion Guide](https://jackkawell.wordpress.com/2020/06/12/ros-wsl2/)
