@@ -37,7 +37,7 @@ To train YoloV5, run the following command:
 
 `python train.py --img <image_size> --cfg yolov5s.yaml --batch 32 --epochs <epochs> --data data.yaml --weights yolov5s.pt --workers 24`
 
-This process will likely take forever, so please use a beefy PC. Also, increasing epochs will likely increase the accuracy of YoloV5, but it will increase training time and detection time hugely.
+This process will likely take forever, so please use a beefy PC. Also, increasing epochs will likely increase the accuracy of YoloV5, but it will increase training time and detection time hugely. Finally, these settings are not optimal for every use case. You *will* need to adjust these parameters.
 
 # Testing YoloV5
 
