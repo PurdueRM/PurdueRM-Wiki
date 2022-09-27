@@ -25,6 +25,6 @@ The size of your dataset will obviously vary based on your needs, however Yolov5
 - Start with *pretrained weights* for small/medium datasets. Larger datasets should use the `--weights ''` flag to start new.
 
 **Training Conditions:**
-- Begin with 300 epochs (`--epochs 300` when training). *Adjust epochs if overfitting/underfitting occurs!*
-- Usually you'll want to train at the same image size that your images are (duh).
+- Adjust epochs if overfitting/underfitting occurs
+- Usually you'll want to train at the same image size that your images are.
 - Use the largest batch size your hardware supports.
