@@ -67,18 +67,14 @@ In summary, all of these folders/files should be in your `yolov5/data` folder:
 - data.yaml
 - images/
 	- test/
-		- <your_test_images>
 	- train/
-		- <your_train_images>
 	- val/
-		- <your_val_images>
 - labels/
 	- test/
-		- <your_test_labels>
 	- train/
-		- <your_train_labels>
 	- val/
-		- <your_val_labels>
+
+And of course your test/tain/val images and labels are in the correct folders now.
 
 ***
 
