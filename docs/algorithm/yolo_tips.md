@@ -7,6 +7,7 @@ nav_order: 8
 
 # YoloV5 Training Tips
 By Tom O'Donnell (tkodonne@purdue.edu)
+
 ***
 If you're working on the "Training YoloV5" onboarding project, odds are you're going to get confused at one point or another. The instructions posted in the Discord server were intentionally left vague, as the goal is for you to understand for yourself what results in a good model. 
 
@@ -66,18 +67,18 @@ In summary, all of these folders/files should be in your `yolov5/data` folder:
 - data.yaml
 - images/
 	- test/
-	  -   <your_test_images>
+		- <your_test_images>
 	- train/
-	  -   <your_train_images>
+		- <your_train_images>
 	- val/
-	  -   <your_val_images>
+		- <your_val_images>
 - labels/
 	- test/
-	  -   <your_test_labels>
+		- <your_test_labels>
 	- train/
-	  -   <your_train_labels>
+		- <your_train_labels>
 	- val/
-	  -   <your_val_labels>
+		- <your_val_labels>
 
 ***
 
