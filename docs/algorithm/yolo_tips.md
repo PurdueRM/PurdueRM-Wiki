@@ -18,11 +18,11 @@ However, this has left people stuck, so I've written this starter pack to explai
 **Yes, this is complicated, but it's a chance to learn a new skill and insight into how our robot classification actually works.**
 
 ## Table of Contents
-- [What Comprises a Dataset?](#What-comprises-a-dataset)
-- [Files and Folder Layout](#Files-and-Folder-Layout)
-- [How to Train Yolo](#How-to-train-yolo)
-- [Evaluating Model Performance](#Evaluating-Performance)
-- [Summary and a step-by-step](#Summary)
+- [What Comprises a Dataset?](#what-comprises-a-dataset)
+- [Files and Folder Layout](#files-and-folder-layout)
+- [How to Train Yolo](#how-to-train-yolo)
+- [Evaluating Model Performance](#evaluating-performance)
+- [Summary and a step-by-step](#summary)
 
 ***
 
