@@ -11,14 +11,9 @@ By: Tom O'Donnell (tkodonne@purdue.edu)
 This document will serve to introduce you to each sign-up project for the algorithm team this semester. I hope this will provide you with enough info to get started, however dm me if you have remaining questions/concerns.
 
 ***
-### Table of Contents:
-- [RESEARCH PROJECTS](#Group-1:-Research-Group)
-- [AIMING PROJECTS](#Group-2:-Aiming-Group)
-- [PROGRAMMING / YOLOv5 PROJECTS](Group-3:-Programming-or-YOLOv5-Model)
-
-***
-### Group 1: Research Group
+## Group 1: Research Group
 All of the below research teams *WILL COLLABORATE WITH EACH OTHER* because they are so tightly-knit:
+
 
 **Task 1: Research Ballistic Drag Models**
 
@@ -42,7 +37,8 @@ Some further questions include: How do we ensure we track and shoot the same rob
 - REQUIRES collaboration with pilots (Leo Liu)
 ***
 
-### Group 2: Aiming Group
+## Group 2: Aiming Group
+
 
 **Task 1: Test yaw/pitch calculations and bullet spread**
 
@@ -73,7 +69,7 @@ Your job is to test if this assumption is even valid. Do the robots move with co
 To test this, you can look at competition footage, test using our actual robots, use the robomaster simulator, etc. I am specifically looking for an answer to the above questions, and also reasoning WHY. 
 
 ***
-### Group 3: Programming or YOLOv5 Model
+## Group 3: Programming or YOLOv5 Model
 
 **Task 1: Compile Dhiro's Yaw/Pitch calculations, write and verify test cases**
 
