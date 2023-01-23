@@ -38,7 +38,6 @@ Your job is to research methods of implementing the effects of drag in these pro
 Our goal is to create a fully-autonomous sentry robot. As such, if the sentry sees >1 robot, which robot should it prioritize shooting? We are forced to make a choice here, and your job is to determine *how we should make this choice.* Specifically, what factors play into which robot we should prioritize shooting? 
 
 Some further questions include: How do we ensure we track and shoot the same robot if our vision becomes obstructed for an instant? Even further, what methods can we use to implement this (decision tree, weights,, etc.). How might we pseudocode this? 
-- REQUIRES collaboration with pilots (Leo Liu)
 
 ***
 
