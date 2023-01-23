@@ -8,7 +8,11 @@ nav_order: 9
 # Robomaster Project Starter Info
 By: Tom O'Donnell (tkodonne@purdue.edu)
 
-This document will serve to introduce you to each sign-up project for the algorithm team this semester. I hope this will provide you with enough info to get started, however dm me if you have remaining questions/concerns.
+This document will serve to introduce you to each sign-up project for the algorithm team this semester. 
+
+**At each weekly meeting, I will ask for updates on each project. A slideshow will suffice for most simple tasks, however change your mode of presentation as necessary.**
+
+I hope this will provide you with enough info to get started, however dm me if you have remaining questions/concerns.
 
 ***
 ## Group 1: Research Group
@@ -35,6 +39,7 @@ Our goal is to create a fully-autonomous sentry robot. As such, if the sentry se
 
 Some further questions include: How do we ensure we track and shoot the same robot if our vision becomes obstructed for an instant? Even further, what methods can we use to implement this (decision tree, weights,, etc.). How might we pseudocode this? 
 - REQUIRES collaboration with pilots (Leo Liu)
+
 ***
 
 ## Group 2: Aiming Group
