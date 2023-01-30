@@ -117,11 +117,20 @@ Specifically, you will train three YOLOv5 models:
 
 You will also conduct formal performance analysis, and determine in which scenarios the models lack in performance/accuracy.
 
-**Task 4: Collect data of the sentry armor plates for YOLOv5 model**
+**Task 4: Collect data of the sentry/base armor plates for YOLOv5 model**
 
-You will gather video/images of robots with the sentry logo on their armor plate, for use in our YOLOv5 robot detection / classification model. 
+You will gather video/images of robots with the sentry logo and base logo on their armor plate, for use in our YOLOv5 robot detection / classification model. 
 
 Essentially, you will be recording using a camera (Intel Realsense) and driving robots around in a chosen location. May need to research our current dataset to determine a suitable number of images to capture, or a suitable duration of video footage. 
+
+IMPORTANT: You will need to capture images/video of the sentry/base armor plate with BLUE **and** RED light bars.
+
+For standardization purposes, here is the `data.yaml` layout we will use:
+
+```
+nc: 10
+names: ["nan", "nan", "nan", "nan", "red", "blue", "sentry_red", "sentry_blue", "base_red", "base_blue"]
+```
 
 ***
 If any questions remain, contact me (Tom O'Donnell). I will clear up any questions.
