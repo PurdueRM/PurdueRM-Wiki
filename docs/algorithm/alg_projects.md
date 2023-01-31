@@ -77,6 +77,8 @@ To test this, you can look at competition footage, test using our actual robots,
 
 **Task 1: Compile Dhiro's Yaw/Pitch calculations, write and verify test cases**
 
+**CODE FOR THIS PROJECT IS ON THE GITLAB REPO UNDER `AutoAim`**
+
 To accurately hit a target using our robot, we must calculate the yaw+pitch needed by the gimbal to have a bullet reach a certain XYZ coordinate. To obtain this pitch and yaw value, we need to simulate the trajectory a bullet will follow.
 
 - We currently have a model which accounts only for gravity, and supports hitting a moving target. Your job is to compile this code, and verify it produces correct results (that the resulting yaw+pitch angles will result in the bullet hitting the desired XYZ).
@@ -84,18 +86,32 @@ To accurately hit a target using our robot, we must calculate the yaw+pitch need
 To accomplish this, you will be writing *test cases*. They may look something like this:
 
 ```
-static int _test_number_one() 
-{ 
-	double pitch; 
-	double yaw; 
-	double target_x = 1.0; 
-	double target_y = 0.0; 
+#include <iostream>
+#include <assert.h>
+#include "projectile_angle_convel.h"
 
-	calc_yaw_pitch(target_x, target_y, 15, &pitch, &yaw); 
-	
-	assert(pitch > 0 && pitch <= 90); 
-	assert(yaw >= -360 && yaw <= 360); 
-	assert(pitch == 45); 
+int main()
+{
+    // define vec3 P, V, and G
+    vec3 P(2.5, 0, -0.2), V(0,0, 0), G(0, 0, 9.81);
+    
+    // define pitch, yaw, and impossible
+    double p = 0, y = 0; bool im = 0;
+
+    // function call
+    pitch_yaw_gravity_model_movingtarget_const_v(P, V, G, 0, &p, &y, &im);
+
+    // example tests... simply ensure shot is possible and pitch/yaw are within [0, 180] degrees
+    assert(!im);
+    assert(p < 180 && p >= 0);
+    assert(y < 180 && y >= 0);
+
+    // print results
+    std::cout << "Target XYZ = (" << P.x << ", " << P.y << ", "<< P.z << ")\n";
+    std::cout << "(pitch, yaw) = (" << p << ", " << y << ")\n";
+    std::cout << "Impossible = " << im;
+
+    return 0;
 }
 ```
 Where you define a target XYZ, call the yaw/pitch calculation function, and verify the results match expectations. Again, you need to ensure these calculations will ACTUALLY HIT THE TARGET, so you will need to devise a way to determine if a bullet will hit a moving target upon its landing.
