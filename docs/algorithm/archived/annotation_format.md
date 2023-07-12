@@ -1,7 +1,7 @@
 ---
 layout: default
 title: YoloV5 Annotation Forms
-parent: Algorithm
+parent: archived
 nav_order: 7
 ---
 

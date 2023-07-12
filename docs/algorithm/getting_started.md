@@ -3,7 +3,7 @@ layout: default
 title: Getting Started
 parent: Algorithm
 nav_order: 1
-has_children: false
+has_children: true
 ---
 
 # Getting Started   
