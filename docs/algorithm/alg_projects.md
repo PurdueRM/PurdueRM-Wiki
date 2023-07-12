@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Alg Team Project Starter Info
-parent: Algorithm
-nav_order: 9
+parent: Getting Started
+nav_order: 2
 ---
 
 # Robomaster Project Starter Info

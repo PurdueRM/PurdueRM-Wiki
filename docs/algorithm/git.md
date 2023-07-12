@@ -3,7 +3,6 @@ layout: default
 title: Git
 parent: Getting Started
 nav_order: 1
-has_children: false
 ---
 
 # Git
