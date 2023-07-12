@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alg Team Project Starter Info
-parent: Getting Started
+parent: Algorithm
 nav_order: 2
 ---
 
