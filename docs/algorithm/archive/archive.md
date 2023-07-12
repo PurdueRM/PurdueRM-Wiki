@@ -2,7 +2,7 @@
 layout: default
 title: Archived Pages
 parent: Algorithm
-nav_order: 3
+nav_order: 99
 has_children: true
 ---
 

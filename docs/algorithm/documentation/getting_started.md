@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Getting Started
-parent: Algorithm
+parent: Alg Team Documentation
+grand_parent: Alg Team Documentation
 nav_order: 1
 ---
 
@@ -11,7 +12,7 @@ The algorithm team are incharged of two parts: the auto aim system and the sentr
 
 ### Auto Aim System
 The Auto aim system aims to detect, model, predict enemy armor plate and communicate this information to the control board. 
-![](structure.png)
+![](../resources/structure.png)
 ### Sentry AI
 TODO (Louis)
 # Tools

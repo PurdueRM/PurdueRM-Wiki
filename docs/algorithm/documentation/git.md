@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Git
-parent: Algorithm
-nav_order: 1
+parent: Alg Team Documentation
+grand_parent: Algorithm
+nav_order: 2
 ---
 
 # Git

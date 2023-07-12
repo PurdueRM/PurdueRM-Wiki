@@ -7,7 +7,7 @@ has_children: true
 
 # Algorithm Team
 
-![Alt Text](robot.gif)
+![Alt Text](resources/robot.gif)
 
 Tasked with updating and computer vision and machine learning routines for enemy robot detection and decision making.
 ### Tools we use

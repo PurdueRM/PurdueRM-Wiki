@@ -1,12 +1,15 @@
 ---
 layout: default
 title: Alg Team Project Starter Info
-parent: Algorithm
+parent: Archived Pages
+grand_parent: Algorithm
 nav_order: 2
 ---
 
-# Robomaster Project Starter Info
+# Robomaster Project Starter Info 2022
 By: Tom O'Donnell (tkodonne@purdue.edu)
+
+# THIS DOCUMENT IS FROM THE 2022-2023 SEASON, AND IS NO LONGER CURRENT
 
 This document will serve to introduce you to each sign-up project for the algorithm team this semester. 
 
