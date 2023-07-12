@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Navigating the Repo
-parent: Algorithm
-nav_order: 2
+parent: Archived Pages
+grand_parent: Algorithm
+nav_order: 4
 ---
 
 # Navigating the GitLab Repository

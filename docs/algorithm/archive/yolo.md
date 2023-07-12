@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Using YoloV5
-parent: Algorithm
-nav_order: 1
+parent: Archived Pages
+grand_parent: Algorithm
+nav_order: 6
 ---
 
 # Setting up YoloV5

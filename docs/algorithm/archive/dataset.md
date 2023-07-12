@@ -1,8 +1,9 @@
 ---
 layout: default
 title: A Good Dataset
-parent: Algorithm
-nav_order: 3
+parent: Archived Pages
+grand_parent: Algorithm
+nav_order: 2
 ---
 
 # Making a Good Dataset

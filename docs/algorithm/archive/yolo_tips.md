@@ -1,8 +1,9 @@
 ---
 layout: default
 title: YoloV5 Training Tips
-parent: Algorithm
-nav_order: 8
+parent: Archived Pages
+grand_parent: Algorithm
+nav_order: 7
 ---
 
 # YoloV5 Training Tips

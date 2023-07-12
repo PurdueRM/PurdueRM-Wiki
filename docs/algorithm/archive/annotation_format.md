@@ -1,8 +1,9 @@
 ---
 layout: default
 title: YoloV5 Annotation Forms
-parent: archived
-nav_order: 7
+parent: Archived Pages
+grand_parent: Algorithm
+nav_order: 1
 ---
 
 # Understanding the YoloV5 Annotation Format

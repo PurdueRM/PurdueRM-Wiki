@@ -1,7 +1,8 @@
 ---
 layout: default
 title: NVIDIA TX2
-parent: Algorithm
+parent: Archived Pages
+grand_parent: Algorithm
 nav_order: 5
 ---
 
