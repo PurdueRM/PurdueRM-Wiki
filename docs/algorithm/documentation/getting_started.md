@@ -2,7 +2,7 @@
 layout: default
 title: Getting Started
 parent: Alg Team Documentation
-grand_parent: Alg Team Documentation
+grand_parent: Algorithm
 nav_order: 1
 ---
 
