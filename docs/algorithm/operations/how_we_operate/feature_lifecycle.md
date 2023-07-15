@@ -15,7 +15,7 @@ nav_order: 1
     - Propose and join an issue on GitLab Issues page (following Issue Lifecycle)
     - Create a separate branch for your changes in your specific project. Make your branch name (and commit messages) indicative of the changes/features you’re working on.
     - Do all your work in this new branch. Commit and push your code to this separate branch.
-    - Upon completion of your deliverables and test cases, create a merge request to main and wait for a code review. A reviewer will conduct a ************************Code Review************************ of your code and test cases. Your request will either be improved, or you will receive feedback on what needs to be fixed.
+    - Upon completion of your deliverables and test cases, create a merge request to main and wait for a code review. A reviewer will conduct a **Code Review** of your code and test cases. Your request will either be improved, or you will receive feedback on what needs to be fixed.
     - After approval, your code will be merged into main. Please mark the issue page as complete. Congrats, your feature is a part of our codebase!
 
 
@@ -28,7 +28,7 @@ nav_order: 1
     
     **Writing Test Cases**
     
-    - We use the `gtest` framework in conjunction with Travis CI to automate testing our code. Every piece of code should be tested ***************as you write it*************** according to this process:
+    - We use the `gtest` framework in conjunction with Travis CI to automate testing our code. Every piece of code should be tested **as you write it** according to this process:
         - Each project has a skeleton for tests inside its `tests` folder. You will create a new `TEST` function similar to the one below:
             
             ```cpp
