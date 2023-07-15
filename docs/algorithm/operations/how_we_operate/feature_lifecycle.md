@@ -1,8 +1,10 @@
+---
 layout: default
 title: How to Contribute Code
 parent: How Alg Team Operates
 grand_parent: Algorithm
 nav_order: 1
+---
 
 
 # Team Structure and Workflow
