@@ -12,7 +12,8 @@ nav_order: 1
 - **How does the algorithm team operate?**
     - We operate on a weekly basis, with a team meeting once a week. At each team meeting, we will check-in on every active issue, to ensure progress is being made. Any due/overdue issues will be the primary focus.
 - **Feature lifecycle**: If a member wishes to make a code change, they must follow this process:
-    - Create a new issue if it’s not created yet. Add a good description and select a project label depending on what the issue entails. Assign yourself and your team to the issue
+    - Create a new issue if it’s not created yet. Add a good description and select a project label depending on what the issue entails. *Break the issue up into smaller sub-issues if this is a larger project or node*
+    - Pick one person to be the CAPTAIN of this issue, and assign the issue to them. Anyone else collaborating on this issue should be pinged in the description. The same applies to sub-issues.
     - Still on the issue page, create a branch and merge request with the button in the top right. Make sure to mark it as a draft (it probably is by default)
         - NOTE: do not assign a code reviewer until your code is complete
     - Begin coding. Make sure to switch to your new branch, and do your code changes in this newly-created branch
