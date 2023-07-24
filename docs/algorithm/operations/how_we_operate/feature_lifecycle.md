@@ -15,10 +15,7 @@ nav_order: 1
     - Create a new issue if it’s not created yet. Add a good description and select a project label depending on what the issue entails. *Break the issue up into smaller sub-issues if this is a larger project or node*
     - Pick one person to be the CAPTAIN of this issue, and assign the issue to them. Anyone else collaborating on this issue should be pinged in the description. The same applies to sub-issues.
     - Still on the issue page, create a branch and merge request with the button in the top right. Make sure to mark it as a draft (it probably is by default)
-        - NOTE: do not assign a code reviewer until your code is complete
-    - Begin coding. Make sure to switch to your new branch, and do your code changes in this newly-created branch
-    - Upon completing your code, unmark the “draft” checkbox in your merge request. Start a code review by assigning a code reviewer in the right panel
-        - NOTE: all users are assigned the “developer” role and are unable to push to main without a code review.
+    - You may begin coding! Upon completing your coding task, unmark the “draft” checkbox in your merge request. Start a code review by assigning a code reviewer in the right panel
     - The code reviewer will either offer comments / improvements to your code, or they will follow through with the merge and close the request. If you receive feedback, you should make the requested changes and notify the reviewer when you’re done.
 
 
