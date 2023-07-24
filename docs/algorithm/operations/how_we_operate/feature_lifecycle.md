@@ -12,16 +12,13 @@ nav_order: 1
 - **How does the algorithm team operate?**
     - We operate on a weekly basis, with a team meeting once a week. At each team meeting, we will check-in on every active issue, to ensure progress is being made. Any due/overdue issues will be the primary focus.
 - **Feature lifecycle**: If a member wishes to make a code change, they must follow this process:
-    - create a new issue if it’s not created yet
-    - add a good description and select a project label depending on what the issue entails
-- assign yourself and your team to the issue
-- still on the issue page, create a branch and merge request with the button in the top right. Make sure to mark it as a draft (it probably is by default)
-    - NOTE: do not assign a code reviewer until your code is complete
-- now you can begin working. Make sure to switch to your new branch, and do your code changes in this newly-created branch
-- upon completing your code, unmark the “draft” checkbox in your merge request
-- request a code review by assigning a code reviewer in the right panel
-    - NOTE: all users are assigned the “developer” role and are unable to push to main without a code review.
-- the code reviewer will either offer comments / improvements to your code, or they will follow through with the merge and close the request. If you receive feedback, you should make the requested changes and notify the reviewer when you’re done.
+    - Create a new issue if it’s not created yet. Add a good description and select a project label depending on what the issue entails. Assign yourself and your team to the issue
+    - Still on the issue page, create a branch and merge request with the button in the top right. Make sure to mark it as a draft (it probably is by default)
+        - NOTE: do not assign a code reviewer until your code is complete
+    - Begin coding. Make sure to switch to your new branch, and do your code changes in this newly-created branch
+    - Upon completing your code, unmark the “draft” checkbox in your merge request. Start a code review by assigning a code reviewer in the right panel
+        - NOTE: all users are assigned the “developer” role and are unable to push to main without a code review.
+    - The code reviewer will either offer comments / improvements to your code, or they will follow through with the merge and close the request. If you receive feedback, you should make the requested changes and notify the reviewer when you’re done.
 
 
     
