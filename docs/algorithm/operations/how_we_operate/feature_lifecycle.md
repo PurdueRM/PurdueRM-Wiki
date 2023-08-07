@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: How to Contribute Code
