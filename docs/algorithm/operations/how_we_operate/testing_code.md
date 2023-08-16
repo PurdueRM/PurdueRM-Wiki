@@ -6,7 +6,7 @@ grand_parent: Algorithm
 nav_order: 2
 ---
 
-  ###  **Writing Test Cases**
+###  **Writing Test Cases**
    We use the `gtest` framework in conjunction with Travis CI to automate testing our code. Every piece of code should be tested **before or as you write it**. Each project has a skeleton for tests inside its `tests` folder. You will create a new `TEST` function similar to the one below:
             
 ```cpp
