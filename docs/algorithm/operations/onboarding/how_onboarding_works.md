@@ -22,13 +22,14 @@ If you are on MacOS or Linux:
 
 If you are on Windows:
 - Download PuTTY from https://www.putty.org.
-- Under the "Connection" > "SSH" > "X11" settings, make sure the `Enable X11 forwarding` option is checked.
+- Download X410 server from https://www.x410.dev (free version).
+- Under the "Connection" > "SSH" > "X11" settings, make sure the `Enable X11 forwarding` option is checked. Set `localhost:0:0` as the "X display location".
 - For your login information:
 	- Hostname: `tx2.purduerm.org`
 	- Port: `10051`
 	- Username/Password: see email
+- Important: Save your login info with a name. It will preserve your settings for next time. 
 - Hit connect, and you will be placed into your home directory. Your starter code for onboarding is waiting for you!
-	- Pro tip: Save your login info in PuTTY!
 	
 ***
 
