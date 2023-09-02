@@ -22,9 +22,10 @@ nav_order: 3
 
 **Instructions:**
 1. Log onto the development server
-2. `cd` into `onboarding_files/ros2`.
+2. `cd` into `onboarding_files/ros`.
 3. You have **three* files you need to complete. Don't worry, two are literally just filling in a couple words.
-  - 
+4. To build your project, `cd` into the `onboarding_files` folder and run `colcon build`.
+5. To test your project, run `source install/setup.sh` and `ros2 run listener <executable_name`. Ensure it receives the correct message: "You have completed the ROS2 onboarding project"
 
 **Resources and helpful info:**
 If you don't understand a step, look it up! No shame in consulting documentation.
