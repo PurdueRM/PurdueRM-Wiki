@@ -19,13 +19,12 @@ nav_order: 3
   - package.xml
 - Understand best practices in software engineering
 
-
 **Instructions:**
 1. Log onto the development server and `cd` into `onboarding_files/ros2/listener`.
-2. You have **three* files you need to complete. Don't worry, two are literally just filling in a couple words. Go ahead and follow the instructions in the three files: `CMakeLists.txt`, `package.xml`, and `listener_starter.cpp`.
-3. To build your project, `cd` into the `onboarding_files/ros2/` folder and run `colcon build`. Run `source install/setup.sh` to update changes.
-4. To test your project, you will need to run the talker node first. Login to the server **in a second window** and `cd` into the talker folder and run `source ../install/setup.sh`. Start the talker node using `ros2 run talker_example talker`. 
-5. Back in the original window, `cd` into the your listener project folder, and run `ros2 run listener <executable_name>`. Ensure the listener receives the correct message: "You have completed the ROS2 onboarding project!".
+2. You have **three* files you need to complete. Don't worry, two are literally just filling in a couple words. Go ahead and follow the instructions in the three files to complete onboarding: `CMakeLists.txt`, `package.xml`, and `listener_starter.cpp`.
+3. To build your project: `cd` into the `onboarding_files/ros2/` folder and run `source /opt/ros/foxy/setup.sh` and `colcon build`. Run `source install/setup.sh` to update changes.
+4. To test your project: you will need to run the talker node first. Login to the server **in a second window** and `cd` into the talker folder and run `source ../install/setup.sh`. Start the talker node using `ros2 run talker_example talker`. 
+5. Back in the original window, `cd` into the your listener project folder, and run `ros2 run <pkg_name> <executable_name>`. Ensure the listener receives the correct message: "You have completed the ROS2 onboarding project!".
 
 **Resources and helpful info:**
 If you don't understand a step, look it up! No shame in consulting documentation. Let's just say writing a listener node is a very common task.
