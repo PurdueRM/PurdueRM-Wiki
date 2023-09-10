@@ -29,4 +29,7 @@ nav_order: 3
 **Resources and helpful info:**
 If you don't understand a step, look it up! No shame in consulting documentation. Let's just say writing a listener node is a very common task.
 
+# Common bugs
+- Q: Error while building, relating to comments in the file
+  - A: Remove the comments in the file. I belive triple tick comments `"""` causes bugs which is my mistake.
 
