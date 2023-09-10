@@ -10,7 +10,7 @@ nav_order: 1
 This season, we have designed two project options for members to choose from. You must select and complete one of the following projects before the second meeting:
 1. **Computer Vision**: Detect the Earth in the famous Pale Blue Dot image
 2. **SWE / ROS2**: Explore our code pipeline and write software to receive a message published by our robot
-3. **ML**: Createa number classifier model (very difficult).
+3. **ML**: Create an image classifier model (very difficult).
 
 You should have already filled out the Google Form to join the team (if not, DM `@tomdonel`). Within 48 hours of filling out the form, you will receive an email with your login information to the development server.
 
