@@ -13,7 +13,7 @@ nav_order: 1
    - Pick one person to be the CAPTAIN of this issue, and assign the issue to them. Anyone else working on this issue should be pinged in the description. Do the same for each sub-task in the issue.
    - Still on the issue page, create a branch and merge request with the button in the top right. Make sure to mark it as a draft (it probably is by default) to not cause confusion.
    - You may begin coding! Upon completing your issue, unmark the “draft” checkbox in your merge request. Start a code review by assigning a code reviewer in the right panel.
-   - The code reviewer will suggest improvements to your code, then will follow through with the merge. If you receive feedback, you should make the needed changes and notify the reviewer when you’re done.
+   - The code reviewer will set up a meeting time and will conduct the code review according to the below processes under “Code Evaluations”.
 
 
     
