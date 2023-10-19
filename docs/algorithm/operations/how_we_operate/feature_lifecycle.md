@@ -24,7 +24,7 @@ nav_order: 1
    - A member is eventually assigned to the issue, and they are to begin the Feature Lifecycle process.
    
     
- ## **Code Evaluations**
+## **Code Evaluations**
  Before a code evalutation, the member should ensure:
  - The code is complete (all deliverables are met)
  - The code is documented (comments, README, etc.)
