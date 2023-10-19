@@ -24,14 +24,16 @@ nav_order: 1
    - A member is eventually assigned to the issue, and they are to begin the Feature Lifecycle process.
    
     
- ##  **Code Evaluations**
+ ## **Code Evaluations**
  Before a code evalutation, the member should ensure:
  - The code is complete (all deliverables are met)
  - The code is documented (comments, README, etc.)
  - Merge request is un-marked as a draft
 
  Once the above is complete, the member should ping a team lead to schedule a code evaluation. The code evaluation process is as follows:
-1. **Explain and demonstrate project:** show functionality to the team lead
+1. **Explain and demonstrate project:** show functionality to the team lead. 
+   - Are all deliverables met? Does the code work as expected? 
+   - Larger projects may take several rounds of tests to fully demonstrate.
 2. **Analyze code:** together line-by-line
    - Static code analysis (conventions, clean code)
    - Review and verify test cases (do they cover core functionality and edge cases?)
