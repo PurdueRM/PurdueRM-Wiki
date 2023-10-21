@@ -26,19 +26,19 @@ nav_order: 1
     
 ## **Code Evaluations**
  Before a code evalutation, the member should ensure:
- - The code is complete (all deliverables are met)
- - The code is documented (comments, README, etc.)
- - Merge request is un-marked as a draft
+ - **The code is complete (all deliverables are met)**
+ - **The code is documented (comments, README, etc.)**
+ - **Merge request is un-marked as a draft**
 
- Once the above is complete, the member should ping a team lead to schedule a code evaluation. The code evaluation process is as follows:
+ The above *must* be complete. Once complete, the member should assign a team lead as code reviewer (ping them too) to schedule a code evaluation. The code evaluation process is as follows:
 1. **Explain and demonstrate project:** show functionality to the team lead. 
    - Are all deliverables met? Does the code work as expected? 
    - Larger projects may take several rounds of tests to fully demonstrate.
 2. **Analyze code:** together line-by-line
-   - Static code analysis (conventions, clean code)
+   - Static code analysis (conventions - [see this site for general guidance](https://engineering.purdue.edu/ece264/23au/code_quality), clean code)
    - Review and verify test cases (do they cover core functionality and edge cases?)
    - Review and verify documentation (comments, README, etc.)
-3. **Discuss Feedback:** If feedback is given, the member should re-mark the merge request as draft, complete the needed changes and notify the team lead when they’re done.
+3. **Discuss Feedback:** Feedback will be placed on the **issue page** for your project on GitLab. If feedback is given, the member should re-mark the merge request as draft, complete the needed changes and notify the team lead when they’re done.
 4. **Follow through with the merge to main**.
 
 ***
