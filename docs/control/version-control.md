@@ -2,7 +2,7 @@
 layout: default
 title: Version Control
 parent: Control
-nav_order: 6
+nav_order: 7
 ---
 # How to
 ### Clone a remote repository to local
