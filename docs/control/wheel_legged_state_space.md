@@ -3,7 +3,7 @@ layout: default
 title: Wheel-Legged Balancing State Space
 parent: Control
 nav_order: 8
-math: mathjax
+math: katex
 ---
 # MATLAB Symbolic Calculation for Wheel-Legged Balancing Robot
 ## Define Symbolic Variables
