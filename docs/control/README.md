@@ -4,8 +4,6 @@ title: Control
 nav_order: 6
 has_children: true 
 ---
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RoboMaster-Club/PurdueRM-Wiki/pulse) 
-[![Maintainer](https://img.shields.io/badge/Maintainer-Leo-blue)](https://github.com/CuboiLeo)
 
 # Purdue Robomaster Control Team Wiki (Updating)
 - Use the Wiki as a Table of Content for Navigation.

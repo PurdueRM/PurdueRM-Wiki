@@ -3,6 +3,7 @@ layout: default
 title: Wheel-Legged Balancing State Space
 parent: Control
 nav_order: 8
+math: mathjax
 ---
 # MATLAB Symbolic Calculation for Wheel-Legged Balancing Robot
 ## Define Symbolic Variables
@@ -23,7 +24,7 @@ eq3 = M_R * diff(x + L_1 * sin(theta),t,2) == -A_x - B_x;
 eq4 = M_R * diff(L_1 * cos(theta),t,t) == -A_y - B_y - M_R * g;
 ```
 
-solve() function does not support diff type, therefore we need to substitude the $$\frac{d}{dt}$$ and $\frac{d^2 }{dt^2 }$ with dotted notation
+solve() function does not support diff type, therefore we need to substitude the $\frac{d}{dt}$ and $\frac{d^2 }{dt^2 }$ with dotted notation
 
 ```
 eq1 = subs(eq1, [diff(x,t,2) diff(phi,t,2) diff(theta,t,2) diff(x,t) diff(phi,t) diff(theta,t)], [ ...
