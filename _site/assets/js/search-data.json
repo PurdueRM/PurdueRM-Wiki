@@ -1,0 +1,898 @@
+{"0": {
+    "doc": "Business",
+    "title": "Business",
+    "content": " ",
+    "url": "/docs/business/Business.html",
+    
+    "relUrl": "/docs/business/Business.html"
+  },"1": {
+    "doc": "Communication Protocol",
+    "title": "Communication Protocols",
+    "content": " ",
+    "url": "/docs/control/Communication%20Prototols.html#communication-protocols",
+    
+    "relUrl": "/docs/control/Communication%20Prototols.html#communication-protocols"
+  },"2": {
+    "doc": "Communication Protocol",
+    "title": "Communication Protocol",
+    "content": " ",
+    "url": "/docs/control/Communication%20Prototols.html",
+    
+    "relUrl": "/docs/control/Communication%20Prototols.html"
+  },"3": {
+    "doc": "General Guide",
+    "title": "Control - A General Guide",
+    "content": "The Control Team is a crucial part of the competition. We have seen many teams with fascinating mechanical &amp; electrical design, but failed to design a feasible control system that limited their performance on the field. The robot may even kill itself if its shooting speed went above the limit or chassis power went too high. Therefore, the control team aims to design a control system that not only allows the general movement &amp; shooting of the robot, but also optimize the robot performance through smoother and more responsive human-robot interaction, and automatic mode switching based on the feedback from the referee system. Members will learn STM32 as the embedded system, communication protocols, feedback control, and many related knowledge on the way as they proceed to the design &amp; optimization of the competition robot control system. ",
+    "url": "/docs/control/Control%20-%20%20A%20General%20Guide.html#control---a-general-guide",
+    
+    "relUrl": "/docs/control/Control%20-%20%20A%20General%20Guide.html#control---a-general-guide"
+  },"4": {
+    "doc": "General Guide",
+    "title": "Tools (Click to go to the Download Link)",
+    "content": ". | Keil uVison 5 | STM32 CubeMX | Git GUI | . ",
+    "url": "/docs/control/Control%20-%20%20A%20General%20Guide.html#tools-click-to-go-to-the-download-link",
+    
+    "relUrl": "/docs/control/Control%20-%20%20A%20General%20Guide.html#tools-click-to-go-to-the-download-link"
+  },"5": {
+    "doc": "General Guide",
+    "title": "General Guide",
+    "content": " ",
+    "url": "/docs/control/Control%20-%20%20A%20General%20Guide.html",
+    
+    "relUrl": "/docs/control/Control%20-%20%20A%20General%20Guide.html"
+  },"6": {
+    "doc": "Devices & Datasheets",
+    "title": "Devices &amp; Datasheets",
+    "content": "Here is a list of all the devices we use on our robot, and the links to the relavent information &amp; datasheets. Robomaster Development Board Type A . | Product Introduction | User Guide | Sample Code | . DR16 Remote Control . | Product Introduction | User Mannual | . M3508 Motor . Use together with C620 ESC, for Chassis Motors and Friction Wheels . | Product Introduction | User Guide | . GM6020 Motor . Use for Gimbal (Yaw &amp; Pitch Motors) . | Product Introduction | User Guide | . M2006 Motor . Use together with C610 ESC, for Trigger Wheel . | Product Introduction | . C610 Electronic Speed Controller(ESC) . | User Guide (Only Available in Chinese) | . C620 Electronic Speed Controller(ESC) . | User Guide | . Referee System . | Protocol | User Mannual | . ",
+    "url": "/docs/control/Useful%20Documents/Devices%20&%20Datasheets.html#devices--datasheets",
+    
+    "relUrl": "/docs/control/Useful%20Documents/Devices%20&%20Datasheets.html#devices--datasheets"
+  },"7": {
+    "doc": "Devices & Datasheets",
+    "title": "Devices & Datasheets",
+    "content": " ",
+    "url": "/docs/control/Useful%20Documents/Devices%20&%20Datasheets.html",
+    
+    "relUrl": "/docs/control/Useful%20Documents/Devices%20&%20Datasheets.html"
+  },"8": {
+    "doc": "Important Theories",
+    "title": "Important Theories",
+    "content": " ",
+    "url": "/docs/control/Important%20Theories.html",
+    
+    "relUrl": "/docs/control/Important%20Theories.html"
+  },"9": {
+    "doc": "Open-Source Control Code",
+    "title": "Open-Source Control Code",
+    "content": "Here are some open-source control codes from other universities, great for referencing and learning. | 2021 Shenzhen University - AGV Wheel Infantry | 2021 Harbin University of Science and Technology - All Robots | 2021 Guangzhou City University of Technology - Mecanum Wheel Infantry | 2021 Northeastern University - AGV Wheel Infantry | 2021 Chengdu University of Information Technology - Mecanum Wheel Infantry | 2021 South China University of Technology - AGV Wheel Infantry | . ",
+    "url": "/docs/control/Useful%20Documents/Open-Source%20Control%20Code.html",
+    
+    "relUrl": "/docs/control/Useful%20Documents/Open-Source%20Control%20Code.html"
+  },"10": {
+    "doc": "Control",
+    "title": "Purdue Robomaster Control Team Wiki (Updating)",
+    "content": ". | Use the Wiki as a Table of Content for Navigation. | . ",
+    "url": "/docs/control/README.html#purdue-robomaster-control-team-wiki-updating",
+    
+    "relUrl": "/docs/control/README.html#purdue-robomaster-control-team-wiki-updating"
+  },"11": {
+    "doc": "Control",
+    "title": "Contents",
+    "content": ". | Control - A General Guide . | STM32 Basics . | CubeMX &amp; HAL Library | Timers &amp; Interrupts | GPIO &amp; PWM | . | Important Theories . | PID Control | Mecanum Wheel Inverse Kinematic | Madgwick Orientation Filter for IMU AHRS Estimation | . | Communication Protocols . | CAN | SPI | UART/USART | IIC/I2C | . | Devices &amp; Datasheets . | Robomaster Development Board Type A | DR16 Remote Control | M3508 Motor | GM6020 Motor | M2006 Motor | C610 ESC | C620 ESC | Referee System | . | Open-Source Control Codes . | 2021 Shenzhen University - AGV Wheel Infantry | 2021 Harbin University of Science and Technology - All Robots | 2021 Guangzhou City University of Technology - Mecanum Wheel Infantry | 2021 Northeastern University - AGV Wheel Infantry | 2021 Chengdu University of Information Technology - Mecanum Wheel Infantry | 2021 South China University of Technology - AGV Wheel Infantry | . | . ",
+    "url": "/docs/control/README.html#contents",
+    
+    "relUrl": "/docs/control/README.html#contents"
+  },"12": {
+    "doc": "Control",
+    "title": "Control",
+    "content": " ",
+    "url": "/docs/control/README.html",
+    
+    "relUrl": "/docs/control/README.html"
+  },"13": {
+    "doc": "STM32 Basics",
+    "title": "STM32 Basics",
+    "content": " ",
+    "url": "/docs/control/STM32%20Basics.html",
+    
+    "relUrl": "/docs/control/STM32%20Basics.html"
+  },"14": {
+    "doc": "STM32 Basics",
+    "title": "CubeMX &amp; HAL Library",
+    "content": " ",
+    "url": "/docs/control/STM32%20Basics.html#cubemx--hal-library",
+    
+    "relUrl": "/docs/control/STM32%20Basics.html#cubemx--hal-library"
+  },"15": {
+    "doc": "STM32 Basics",
+    "title": "Timers &amp; Interrupts",
+    "content": " ",
+    "url": "/docs/control/STM32%20Basics.html#timers--interrupts",
+    
+    "relUrl": "/docs/control/STM32%20Basics.html#timers--interrupts"
+  },"16": {
+    "doc": "STM32 Basics",
+    "title": "GPIO &amp; PWM",
+    "content": " ",
+    "url": "/docs/control/STM32%20Basics.html#gpio--pwm",
+    
+    "relUrl": "/docs/control/STM32%20Basics.html#gpio--pwm"
+  },"17": {
+    "doc": "Alg Team Project Starter Info",
+    "title": "Robomaster Project Starter Info 2022",
+    "content": "By: Tom O’Donnell (tkodonne@purdue.edu) . ",
+    "url": "/docs/algorithm/archive/alg_projects.html#robomaster-project-starter-info-2022",
+    
+    "relUrl": "/docs/algorithm/archive/alg_projects.html#robomaster-project-starter-info-2022"
+  },"18": {
+    "doc": "Alg Team Project Starter Info",
+    "title": "THIS DOCUMENT IS FROM THE 2022-2023 SEASON, AND IS NO LONGER CURRENT",
+    "content": "This document will serve to introduce you to each sign-up project for the algorithm team this semester. At each weekly meeting, I will ask for updates on each project. A slideshow will suffice for most simple tasks, however change your mode of presentation as necessary. I hope this will provide you with enough info to get started, however dm me if you have remaining questions/concerns. ",
+    "url": "/docs/algorithm/archive/alg_projects.html#this-document-is-from-the-2022-2023-season-and-is-no-longer-current",
+    
+    "relUrl": "/docs/algorithm/archive/alg_projects.html#this-document-is-from-the-2022-2023-season-and-is-no-longer-current"
+  },"19": {
+    "doc": "Alg Team Project Starter Info",
+    "title": "Group 1: Research Group",
+    "content": "All of the below research teams WILL COLLABORATE WITH EACH OTHER because they are so tightly-knit: . Task 1: Research Ballistic Drag Models . For this task, you will be researching various methods (or models) for accounting for drag within a projectile simulation. Some examples may include: static drag values based on projectile size, Newton’s method, etc. Specifically, I will ask for pros/cons of various methods, an explanation of how they work, necessary equations, etc. A PowerPoint should suffice. Task 2: Methods of Implementing Drag in Pitch / Yaw Calculations . To accurately hit a target using our robot, we must calculate the yaw+pitch needed by the gimbal to have a bullet reach a certain XYZ coordinate. To obtain this pitch and yaw value, we need to simulate the trajectory a bullet will follow. Using a simple kinematic approach we can account for gravity, but accounting for drag is a bit harder. Your job is to research methods of implementing the effects of drag in these projectile simulations, whether it be via a lookup table (dependent on distance to the target), or numerically solving an equation. You can consider factors such as execution time, accuracy, etc. Task 3: Research Decision Theory . Our goal is to create a fully-autonomous sentry robot. As such, if the sentry sees &gt;1 robot, which robot should it prioritize shooting? We are forced to make a choice here, and your job is to determine how we should make this choice. Specifically, what factors play into which robot we should prioritize shooting? . Some further questions include: How do we ensure we track and shoot the same robot if our vision becomes obstructed for an instant? Even further, what methods can we use to implement this (decision tree, weights,, etc.). How might we pseudocode this? . ",
+    "url": "/docs/algorithm/archive/alg_projects.html#group-1-research-group",
+    
+    "relUrl": "/docs/algorithm/archive/alg_projects.html#group-1-research-group"
+  },"20": {
+    "doc": "Alg Team Project Starter Info",
+    "title": "Group 2: Aiming Group",
+    "content": "Task 1: Test yaw/pitch calculations and bullet spread . To accurately hit a target using our robot, we must calculate the yaw+pitch needed by the gimbal to have a bullet reach a certain XYZ coordinate. To obtain this pitch and yaw value, we need to simulate the trajectory a bullet will follow. Your job is to test our current simulations/code and yaw+pitch calculations. You will fire bullets and collect data regarding accuracy of pitch/yaw calculations, bullet spread, drag, etc. This may involve setting up a target x meters away from the robot, plugging values into our code, an ensuring the fired projectile lands at x meters. Or doing analysis on the distribution of locations where projectiles hit a target. You will work closely with Dhiro and Tom, so stay in contact with them for next steps. Task 2: Run tests in the robomaster simulation using projectile models . To hit an enemy robot with a projectile, we must correctly set the gimbal’s yaw and pitch angles (which are calculated via projectile/ballistics equations). You will be testing these calculations in the robomaster simulation to ensure they theoretically work, especially those involving a moving target. This will require learning how to use the sim. Task 3: Testing assumptions of constant velocity / acceleration until bullet contact . | This task is a little complex. | . Background: To accurately hit a target using our robot, we assume enemy robots move with a constant velocity or constant acceleration. This assumption is required, since we need to “lead our shots” to hit a moving target. We cannot reasonably determine by HOW MUCH to lead our shots without using this assumption to predict where the enemy will be after a certain time interval. Your job is to test if this assumption is even valid. Do the robots move with constant velocity? Do they move with constant acceleration? If not, can we reasonably APPROXIMATE their motion as such? How much error might this approximation induce? . To test this, you can look at competition footage, test using our actual robots, use the robomaster simulator, etc. I am specifically looking for an answer to the above questions, and also reasoning WHY. ",
+    "url": "/docs/algorithm/archive/alg_projects.html#group-2-aiming-group",
+    
+    "relUrl": "/docs/algorithm/archive/alg_projects.html#group-2-aiming-group"
+  },"21": {
+    "doc": "Alg Team Project Starter Info",
+    "title": "Group 3: Programming or YOLOv5 Model",
+    "content": "Task 1: Compile Dhiro’s Yaw/Pitch calculations, write and verify test cases . CODE FOR THIS PROJECT IS ON THE GITLAB REPO UNDER AutoAim . To accurately hit a target using our robot, we must calculate the yaw+pitch needed by the gimbal to have a bullet reach a certain XYZ coordinate. To obtain this pitch and yaw value, we need to simulate the trajectory a bullet will follow. | We currently have a model which accounts only for gravity, and supports hitting a moving target. Your job is to compile this code, and verify it produces correct results (that the resulting yaw+pitch angles will result in the bullet hitting the desired XYZ). | . To accomplish this, you will be writing test cases. They may look something like this: . #include &lt;iostream&gt; #include &lt;assert.h&gt; #include \"projectile_angle_convel.h\" int main() { // define vec3 P, V, and G vec3 P(2.5, 0, -0.2), V(0,0, 0), G(0, 0, 9.81); // define pitch, yaw, and impossible double p = 0, y = 0; bool im = 0; // function call pitch_yaw_gravity_model_movingtarget_const_v(P, V, G, 0, &amp;p, &amp;y, &amp;im); // example tests... simply ensure shot is possible and pitch/yaw are within [0, 180] degrees assert(!im); assert(p &lt; 180 &amp;&amp; p &gt;= 0); assert(y &lt; 180 &amp;&amp; y &gt;= 0); // print results std::cout &lt;&lt; \"Target XYZ = (\" &lt;&lt; P.x &lt;&lt; \", \" &lt;&lt; P.y &lt;&lt; \", \"&lt;&lt; P.z &lt;&lt; \")\\n\"; std::cout &lt;&lt; \"(pitch, yaw) = (\" &lt;&lt; p &lt;&lt; \", \" &lt;&lt; y &lt;&lt; \")\\n\"; std::cout &lt;&lt; \"Impossible = \" &lt;&lt; im; return 0; } . Where you define a target XYZ, call the yaw/pitch calculation function, and verify the results match expectations. Again, you need to ensure these calculations will ACTUALLY HIT THE TARGET, so you will need to devise a way to determine if a bullet will hit a moving target upon its landing. This will involve using (at minimum) kinematics, and a solid understanding of C/C++ programming practices. You may use a unit testing framework, or just the assert() macro. Task 2: Use two high-frame rate cameras to perform motion-tracking on bullets . This is a HIGHLY advanced and experimental task. You will use two high-frame-rate cameras in stereo to track the motion of projectiles on the field. If you sign up for this, contact Louis Liu for details. Task 3: Create a finalized YOLOv5 model, and conduct formal testing . We use a Convolutional Neural Network called YOLOv5 to detect enemy robots (specifically their armor plates) on the battlefield. Your job will be creating a finalized YOLOv5 model. Specifically, you will train three YOLOv5 models: . | Using our current dataset captured in BIDC basement | Augmented dataset (ask Tom for this) | Generated dataset. | . You will also conduct formal performance analysis, and determine in which scenarios the models lack in performance/accuracy. Task 4: Collect data of the sentry/base armor plates for YOLOv5 model . You will gather video/images of robots with the sentry logo and base logo on their armor plate, for use in our YOLOv5 robot detection / classification model. Essentially, you will be recording using a camera (Intel Realsense) and driving robots around in a chosen location. May need to research our current dataset to determine a suitable number of images to capture, or a suitable duration of video footage. IMPORTANT: You will need to capture images/video of the sentry/base armor plate with BLUE and RED light bars. For standardization purposes, here is the data.yaml layout we will use: . nc: 10 names: [\"nan\", \"nan\", \"nan\", \"nan\", \"red\", \"blue\", \"sentry_red\", \"sentry_blue\", \"base_red\", \"base_blue\"] . If any questions remain, contact me (Tom O’Donnell). I will clear up any questions. ",
+    "url": "/docs/algorithm/archive/alg_projects.html#group-3-programming-or-yolov5-model",
+    
+    "relUrl": "/docs/algorithm/archive/alg_projects.html#group-3-programming-or-yolov5-model"
+  },"22": {
+    "doc": "Alg Team Project Starter Info",
+    "title": "Alg Team Project Starter Info",
+    "content": " ",
+    "url": "/docs/algorithm/archive/alg_projects.html",
+    
+    "relUrl": "/docs/algorithm/archive/alg_projects.html"
+  },"23": {
+    "doc": "Algorithm",
+    "title": "Algorithm Team",
+    "content": ". Tasked with updating and computer vision and machine learning routines for enemy robot detection and decision making. Tools we use . | YOLO . | An object-detection algorithm used to detect enemy robots. | . | OpenCV . | A C++ and Python Library designed for computer vision. | . | TensorRT . | C++ library for neural network inference acceleration on CUDA cores. | . | UART . | Serial port communication with referee system and control board. | . | ROS . | Robot Operating System, a asynchronous modular platform for robot applications. | . | . ",
+    "url": "/docs/algorithm/alg_team.html#algorithm-team",
+    
+    "relUrl": "/docs/algorithm/alg_team.html#algorithm-team"
+  },"24": {
+    "doc": "Algorithm",
+    "title": "Algorithm",
+    "content": " ",
+    "url": "/docs/algorithm/alg_team.html",
+    
+    "relUrl": "/docs/algorithm/alg_team.html"
+  },"25": {
+    "doc": "YoloV5 Annotation Forms",
+    "title": "Understanding the YoloV5 Annotation Format",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . To train YoloV5, we need both an image and an annotation file. The image is the original image, and the annotation file looks something like: . Image.txt contents: . 5 0.209316 0.241667 0.116745 0.091667 4 0.715802 0.295833 0.073113 0.091667 . As such, the annotation file follows the format: . class x_center y_center width height . Where box coordinates are normalized to the dimensions of the input image (meaning they take values between 0 and 1). For example, in a 416x416 image, the pixel (0, 3) would be normalized as (0, 0.007212), where 0.007212 is simply 3/416. Using this knowledge, we can calculate translations to the image, which is a very common procedure in data augmentation and diversification. For example, let’s say we want to shift the whole image right 15 pixels and down 25 pixels. First, NOTE THAT THE POSITIVE Y DIRECTION IS DOWN. This would imply that the original origin (0,0) is now (15, 25). As such, to apply this transformation, you’d add ([15/416], [25/416]) to the x_center and y_center parameters in the annotation file. Personally, I think it’s easiest to use a translation matrix and apply it via opencv: . Trans_mat = np.float32([ [1, 0, trans_x], [0, 1, trans_y]]) . Using this knowledge, you should now understand the annotation file format used in YoloV5, and you should also know how to calculate simple translation operations for image augmentation / data diversification purposes. ",
+    "url": "/docs/algorithm/archive/annotation_format.html#understanding-the-yolov5-annotation-format",
+    
+    "relUrl": "/docs/algorithm/archive/annotation_format.html#understanding-the-yolov5-annotation-format"
+  },"26": {
+    "doc": "YoloV5 Annotation Forms",
+    "title": "YoloV5 Annotation Forms",
+    "content": " ",
+    "url": "/docs/algorithm/archive/annotation_format.html",
+    
+    "relUrl": "/docs/algorithm/archive/annotation_format.html"
+  },"27": {
+    "doc": "Archived Pages",
+    "title": "Archived Pages",
+    "content": "Here you will find all archived pages. Most of them deal with deprecated tools or utilities we no longer use, but still would like to document. ",
+    "url": "/docs/algorithm/archive/archive.html",
+    
+    "relUrl": "/docs/algorithm/archive/archive.html"
+  },"28": {
+    "doc": "Computer Vision Project",
+    "title": "This page will serve to briefly summarize the goals and instructions for the Computer Vision Onboarding project.",
+    "content": "Objective: Read the pbd.jpg image, detect the Earth, and crop a 50x50px window around it . Goals: . | Get introduced to OpenCV | Understand basic image processing techniques . | Gaussian Blur | Partial Derivatives / Magnitude maxima | Sobel | . | . Instructions: . | Log onto the development server | cd into onboarding_files/cv and run nano pbd.py | Starter code and instructions are provided for you | . Resources and helpful info: If you don’t understand a step, look it up! No shame in consulting documentation. | OpenCV Documentation: https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html | What is a partial derivative? . | A partial derivative is a way to measure how the intensity of a pixel changes with respect to changes in its neighboring pixels. It helps us understand how quickly the pixel values change as we move in different directions within an image. In our case, we use the partial derivatives in the X and Y direction to locate the region of the most intense pixel intensity change, which will be the location of the Earth! | . | . ",
+    "url": "/docs/algorithm/operations/onboarding/cv_project.html#this-page-will-serve-to-briefly-summarize-the-goals-and-instructions-for-the-computer-vision-onboarding-project",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/cv_project.html#this-page-will-serve-to-briefly-summarize-the-goals-and-instructions-for-the-computer-vision-onboarding-project"
+  },"29": {
+    "doc": "Computer Vision Project",
+    "title": "Computer Vision Project",
+    "content": " ",
+    "url": "/docs/algorithm/operations/onboarding/cv_project.html",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/cv_project.html"
+  },"30": {
+    "doc": "A Good Dataset",
+    "title": "Making a Good Dataset",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . Here I will answer the questions of: . | What qualifies as a “good” dataset? | How can I increase the reliability of YoloV5? | . A “good” dataset is one that enables a balance between accuracy with size. With YoloV5, good results can be obtained with minimal tweaking, assuming your dataset is labelled well, and has an adequate size. The size of your dataset will obviously vary based on your needs, however Yolov5 recommends &gt;1.5k images, and &gt;10k labelled objects total. ",
+    "url": "/docs/algorithm/archive/dataset.html#making-a-good-dataset",
+    
+    "relUrl": "/docs/algorithm/archive/dataset.html#making-a-good-dataset"
+  },"31": {
+    "doc": "A Good Dataset",
+    "title": "Increasing YoloV5 accuracy",
+    "content": "Dataset conditions: . | Collect data under varying conditions (lighting, angles, environments). Your goal is to accurately represent your deployment environment. | ADD AUGMENTATIONS TO IMAGES, such as rotating, cutting out specific portions, distortions, etc. (it’s free dataset diversification) | Add 0-10% “background images” with no objects to reduce false positives | Larger Yolo models such as YOLOv5x will likely produce better results, but at the cost of performance and longer training time. | Start with pretrained weights for small/medium datasets. Larger datasets should use the --weights '' flag to start new. | . Training Conditions: . | Adjust epochs if overfitting/underfitting occurs | Usually you’ll want to train at the same image size that your images are. | Use the largest batch size your hardware supports. | . ",
+    "url": "/docs/algorithm/archive/dataset.html#increasing-yolov5-accuracy",
+    
+    "relUrl": "/docs/algorithm/archive/dataset.html#increasing-yolov5-accuracy"
+  },"32": {
+    "doc": "A Good Dataset",
+    "title": "A Good Dataset",
+    "content": " ",
+    "url": "/docs/algorithm/archive/dataset.html",
+    
+    "relUrl": "/docs/algorithm/archive/dataset.html"
+  },"33": {
+    "doc": "Implementing Depth Estimation",
+    "title": "Implementing Depth/Distance Estimation",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . Here I will answer the questions of: . | What is depth estimation? | How does depth estimation benefit our team? | How do you actually implement this? | . ",
+    "url": "/docs/algorithm/archive/depth.html#implementing-depthdistance-estimation",
+    
+    "relUrl": "/docs/algorithm/archive/depth.html#implementing-depthdistance-estimation"
+  },"34": {
+    "doc": "Implementing Depth Estimation",
+    "title": "Depth Estimation… what is it and how does it help?",
+    "content": "Depth Estimation is a computer vision task which allows you to programatically estimate distances / sizes of objects in your field of view. In the robomaster competition, being able to perceive distance is extremely beneficial. For the fully-autonomous sentry, you must account for bullet drop if firing a long distance, which is only achievable if you know how far away your target actually is. ",
+    "url": "/docs/algorithm/archive/depth.html#depth-estimation-what-is-it-and-how-does-it-help",
+    
+    "relUrl": "/docs/algorithm/archive/depth.html#depth-estimation-what-is-it-and-how-does-it-help"
+  },"35": {
+    "doc": "Implementing Depth Estimation",
+    "title": "How does depth estimation work?",
+    "content": "There are numerous approaches to this. One way is by using perspective-n-point, which estimates the pose (position, distance, etc.) between an object and the camera. This method can be very accurate with proper calibrations. However, a much more mathematically-simple approach can also be used. Take a look at a diagram of a camera’s focal length: . While it may not be immediately clear, you can actually model this situation using similar triangles, one composed of the person’s height, their distance to the camera, and the angle of view, and the other triangle composed of the person’s apparent height on the sensor, the camera’s focal length, and the angle of view: . From here, a pretty neat realization can be made. if you know the real size of an object, the camera’s focal length, and the object’s apparent size (in pixels) in the image, you can calculate how far away the object is! . Via similar triangles: . We then need to find the camera’s focal length in pixels, which we can calculate in a series of trials. Simply place an object of known size a known distance from the camera, and use this formula: . Then using this known focal length, we can solve for any object’s distance from the camera: . Here’s an example of the process: . Here’s two videos of this depth estimation in action: . | At-home demo: https://www.youtube.com/watch?v=nPkWisaGOGc | In-competition demo: https://www.youtube.com/watch?v=OgZMPJjoXUE | . ",
+    "url": "/docs/algorithm/archive/depth.html#how-does-depth-estimation-work",
+    
+    "relUrl": "/docs/algorithm/archive/depth.html#how-does-depth-estimation-work"
+  },"36": {
+    "doc": "Implementing Depth Estimation",
+    "title": "Implementing Depth Estimation",
+    "content": " ",
+    "url": "/docs/algorithm/archive/depth.html",
+    
+    "relUrl": "/docs/algorithm/archive/depth.html"
+  },"37": {
+    "doc": "Design Library",
+    "title": "Design Library",
+    "content": "Here we present parameters of certain standard components, including screws, nuts, standardoff, retaining rings and bearings. ",
+    "url": "/docs/mechanical/design_library.html",
+    
+    "relUrl": "/docs/mechanical/design_library.html"
+  },"38": {
+    "doc": "Design Library",
+    "title": "Screws",
+    "content": "We are mainly using M2.5, M3 and M4 screws in our robots. ",
+    "url": "/docs/mechanical/design_library.html#screws",
+    
+    "relUrl": "/docs/mechanical/design_library.html#screws"
+  },"39": {
+    "doc": "Design Library",
+    "title": "Socket Hex Screws",
+    "content": ". ",
+    "url": "/docs/mechanical/design_library.html#socket-hex-screws",
+    
+    "relUrl": "/docs/mechanical/design_library.html#socket-hex-screws"
+  },"40": {
+    "doc": "Design Library",
+    "title": "Rounded Head Screws",
+    "content": ". ",
+    "url": "/docs/mechanical/design_library.html#rounded-head-screws",
+    
+    "relUrl": "/docs/mechanical/design_library.html#rounded-head-screws"
+  },"41": {
+    "doc": "Design Library",
+    "title": "Shoulder Screws",
+    "content": "These types of screws consist of integral threads that are present on half or less of the screw shank and the rest of the shaft is enlarged and smooth to allow the bolted material the ability to rotate or move around the screw axis. Much like all other screws, shoulder screws are meant to hold objects together and in a particular position. However, these screws are designed for use in parts which requires a mounting pin, joint, shaft, dowel, pivot, or sliding motion. Items such as: . | Bearings | Bushings | Machinery support | Motion guiding | Precision spacing | . ",
+    "url": "/docs/mechanical/design_library.html#shoulder-screws",
+    
+    "relUrl": "/docs/mechanical/design_library.html#shoulder-screws"
+  },"42": {
+    "doc": "Design Library",
+    "title": "Nuts",
+    "content": "To make sure the fastening of the each part on the robot, we only use the Nylon-Insert Locknuts. a nylon collar is placed at the end of the nut that increases friction on the screw thread. The screw thread does not cut into the nylon insert, however, the insert deforms elastically over the threads as tightening pressure is applied. The insert locks the nut against the screw as a result of friction, caused by the radial compressive force resulting from the deformation of the nylon. ",
+    "url": "/docs/mechanical/design_library.html#nuts",
+    
+    "relUrl": "/docs/mechanical/design_library.html#nuts"
+  },"43": {
+    "doc": "Design Library",
+    "title": "Bearing",
+    "content": " ",
+    "url": "/docs/mechanical/design_library.html#bearing",
+    
+    "relUrl": "/docs/mechanical/design_library.html#bearing"
+  },"44": {
+    "doc": "Design Library",
+    "title": "Mini Flange Bearing",
+    "content": "The inner diameter from 2mm to 9mm . | d: inner diameter | D: outer diameter | D1: flange diameter | B: bearing thickness | B1: flange thickness | . ",
+    "url": "/docs/mechanical/design_library.html#mini-flange-bearing",
+    
+    "relUrl": "/docs/mechanical/design_library.html#mini-flange-bearing"
+  },"45": {
+    "doc": "Design Library",
+    "title": "Mini Deep-groove Bearing",
+    "content": ". ",
+    "url": "/docs/mechanical/design_library.html#mini-deep-groove-bearing",
+    
+    "relUrl": "/docs/mechanical/design_library.html#mini-deep-groove-bearing"
+  },"46": {
+    "doc": "Alg Team Documentation",
+    "title": "Alg Team Documentation",
+    "content": "Here is a collection of all alg-team related documention. This may include Project Info, code/repo documentation, how certain tools, work, resources, etc. Dm Tom O’Donnell for questions . ",
+    "url": "/docs/algorithm/operations/documentation.html",
+    
+    "relUrl": "/docs/algorithm/operations/documentation.html"
+  },"47": {
+    "doc": "Electrical",
+    "title": "Electrical Team",
+    "content": "Our electrical team is the backbone of the robot which connects the computer vision team hardware, the control team hardware together and provides stable power at the same time. The electrical team also design and implement the sensor on the robot which can provide insight to the player for things like the distance to the wall, and it can also automate some complicated process such as climbing the stair and pick up the ammo box. One of the highlights of the electrical team project is the super-capacitor booster which enables a robot to accelerate much faster during a time of need, around 5-6x faster. The electrical team member implements and design most of the embedded system on board, they also custom design PCB for all the sub-system. ",
+    "url": "/docs/electrical/electrical.html#electrical-team",
+    
+    "relUrl": "/docs/electrical/electrical.html#electrical-team"
+  },"48": {
+    "doc": "Electrical",
+    "title": "Electrical",
+    "content": " ",
+    "url": "/docs/electrical/electrical.html",
+    
+    "relUrl": "/docs/electrical/electrical.html"
+  },"49": {
+    "doc": "How to Contribute Code",
+    "title": "How to Contribute Code",
+    "content": " ",
+    "url": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html",
+    
+    "relUrl": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html"
+  },"50": {
+    "doc": "How to Contribute Code",
+    "title": "Feature lifecycle: If a member wishes to work on an issue on GitLab, they must follow this process:",
+    "content": ". | Pick one person to be the CAPTAIN of this issue, and assign the issue to them. Anyone else working on this issue should be pinged in the description. Do the same for each sub-task in the issue. | Still on the issue page, create a branch and merge request with the button in the top right. Make sure to mark it as a draft (it probably is by default) to not cause confusion. | You may begin coding! Upon completing your issue, unmark the “draft” checkbox in your merge request. Start a code review by assigning a code reviewer in the right panel. | The code reviewer will set up a meeting time and will conduct the code review according to the below processes under “Code Evaluations”. | . ",
+    "url": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html#feature-lifecycle-if-a-member-wishes-to-work-on-an-issue-on-gitlab-they-must-follow-this-process",
+    
+    "relUrl": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html#feature-lifecycle-if-a-member-wishes-to-work-on-an-issue-on-gitlab-they-must-follow-this-process"
+  },"51": {
+    "doc": "How to Contribute Code",
+    "title": "What if I want to propose a new issue?:",
+    "content": ". | Create a new issue under the correct project. Add a good description and select an appropriate label. Add sub-tasks for each smaller deliverable if this is a larger project! | Ping a code reviewer / team lead and discuss the issue with them. Work out a timeframe and deliverables. | A member is eventually assigned to the issue, and they are to begin the Feature Lifecycle process. | . ",
+    "url": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html#what-if-i-want-to-propose-a-new-issue",
+    
+    "relUrl": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html#what-if-i-want-to-propose-a-new-issue"
+  },"52": {
+    "doc": "How to Contribute Code",
+    "title": "Code Evaluations",
+    "content": "Before a code evalutation, the member should ensure: . | The code is complete (all deliverables are met) | The code is documented (comments, README, etc.) | Merge request is un-marked as a draft | . The above must be complete. Once complete, the member should assign a team lead as code reviewer (ping them too) to schedule a code evaluation. The code evaluation process is as follows: . | Explain and demonstrate project: show functionality to the team lead. | Are all deliverables met? Does the code work as expected? | Larger projects may take several rounds of tests to fully demonstrate. | . | Analyze code: together line-by-line . | Static code analysis (conventions - see this site for general guidance, clean code) | Review and verify test cases (do they cover core functionality and edge cases?) | Review and verify documentation (comments, README, etc.) | . | Discuss Feedback: Feedback will be placed on the issue page for your project on GitLab. If feedback is given, the member should re-mark the merge request as draft, complete the needed changes and notify the team lead when they’re done. | Follow through with the merge to main. | . ",
+    "url": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html#code-evaluations",
+    
+    "relUrl": "/docs/algorithm/operations/how_we_operate/feature_lifecycle.html#code-evaluations"
+  },"53": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": "The algorithm team are incharged of two parts: the auto aim system and the sentry AI. Auto Aim System . The Auto aim system aims to detect, model, predict enemy armor plate and communicate this information to the control board. Sentry AI . TODO (Louis) . ",
+    "url": "/docs/algorithm/operations/getting_started.html",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html"
+  },"54": {
+    "doc": "Getting Started",
+    "title": "Tools",
+    "content": " ",
+    "url": "/docs/algorithm/operations/getting_started.html#tools",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#tools"
+  },"55": {
+    "doc": "Getting Started",
+    "title": "C++",
+    "content": "C++ is the most commonly used language for the algo team. C++ is an Object-Oriented langue widely used due to it’s fast execution time and ease of use. We uses C++ because of those properties, but also various packages available in C++ (ie. ROS, TensorRT, CUDA Kernel). A strong foundation in C++ is required as all of our implementation work will be in C++. Luckily, resources for learning C++ is widely available. | learningcpp.com | Codecademy | Linux Command Cheetsheet | . ",
+    "url": "/docs/algorithm/operations/getting_started.html#c",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#c"
+  },"56": {
+    "doc": "Getting Started",
+    "title": "Python",
+    "content": " ",
+    "url": "/docs/algorithm/operations/getting_started.html#python",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#python"
+  },"57": {
+    "doc": "Getting Started",
+    "title": "Ubuntu (Linux)",
+    "content": "Ubuntu is a modern operating system derived from a branch of Linux. It is available with and without GUI. We uses Ubuntu as our platform’s OS because it’s the intended platform for ROS. It is vital that you are familiar with Linux command line interface. | Ubuntu Tutorials | Codecademy Command Line for the Raspberry Pi | . There are various way of setting up an Ubuntu environment. The easiest way would be to utilize the Windows Subsystem for Linux (WSL) . | Install Linux on Windows with WSL | . Some of the library we uses interface directly with the hardware, so a Virtual Machine or WSL may cause problem. A dual boot system can guarantee no issue in that regard. | Install Ubuntu desktop | . ",
+    "url": "/docs/algorithm/operations/getting_started.html#ubuntu-linux",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#ubuntu-linux"
+  },"58": {
+    "doc": "Getting Started",
+    "title": "Git",
+    "content": "Git is an distributed version control system. Trough out the season, you will collaborate with many others while writing code. Git will allow us to revert our code back to previous changes and enabling multiple people to work on the same repository. Knowing the basics of Git (commit, push, pull) is mandatory given it’s importance. | Pro Git Book | . ",
+    "url": "/docs/algorithm/operations/getting_started.html#git",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#git"
+  },"59": {
+    "doc": "Getting Started",
+    "title": "CMake",
+    "content": "CMake is a tool for program compilation and linking. Most of our project utilized multitude of libraries and CMake can to simplify the compile and linking process greatly. It is also an requirement for ROS packages. | CMake Official Guide | . ",
+    "url": "/docs/algorithm/operations/getting_started.html#cmake",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#cmake"
+  },"60": {
+    "doc": "Getting Started",
+    "title": "OpenCV",
+    "content": "OpenCV is a C++ and Python library with various image processing utilities, traditional computer vision techniques, and ML based techniques. | Offical OpenCV Tutorials | . ",
+    "url": "/docs/algorithm/operations/getting_started.html#opencv",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#opencv"
+  },"61": {
+    "doc": "Getting Started",
+    "title": "ROS",
+    "content": "ROS stands for Robotic Operating System. It is an abstraction layer designed to run on Ubuntu. The system facilitate programs (called nodes) running parallel while communicate trough network ports (local or remote). Using ROS, the program can be highly modularized and expendable. We are in the process of changing to ROS2, there will be more deities later. If you want to get a head start, install ROS2 Foxy Fitzroy for Ubuntu 20.04. ",
+    "url": "/docs/algorithm/operations/getting_started.html#ros",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#ros"
+  },"62": {
+    "doc": "Getting Started",
+    "title": "Termios (UART)",
+    "content": "Termios is a Linux library designed for UART communication while maintaining the simplicity of the C++ System I/O functions. | UART Basics | Termios Tutorial | . Here are some note for UART: . | RX / TX: UART is bidirectional, the RX port is for receiving, and TX port for transmission. | GND: If transmitting between devices, make sure the devices are grounded trough the shortest path possible inorder to avoid ground drift. | VCC: For each device, make sure the voltage output is accepted by the receiving device. | Baud Rate: Certain devices only support a limited amount of baud rate. We want the baud rate to be as fast as possible while maintaining no error. | . ",
+    "url": "/docs/algorithm/operations/getting_started.html#termios-uart",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#termios-uart"
+  },"63": {
+    "doc": "Getting Started",
+    "title": "Machine Learning",
+    "content": " ",
+    "url": "/docs/algorithm/operations/getting_started.html#machine-learning",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#machine-learning"
+  },"64": {
+    "doc": "Getting Started",
+    "title": "CUDA Kernel",
+    "content": " ",
+    "url": "/docs/algorithm/operations/getting_started.html#cuda-kernel",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#cuda-kernel"
+  },"65": {
+    "doc": "Getting Started",
+    "title": "TensorRT",
+    "content": " ",
+    "url": "/docs/algorithm/operations/getting_started.html#tensorrt",
+    
+    "relUrl": "/docs/algorithm/operations/getting_started.html#tensorrt"
+  },"66": {
+    "doc": "Git",
+    "title": "Git",
+    "content": " ",
+    "url": "/docs/algorithm/operations/git.html",
+    
+    "relUrl": "/docs/algorithm/operations/git.html"
+  },"67": {
+    "doc": "Git",
+    "title": "Install Git",
+    "content": "Chose the appropriate system version and follow the linked guide on installation. | MacOS | Windows | Linux | . Clone . To download an repository from a remote server: git clone &lt;repo_address&gt; For example, to clone this Wiki: git clone https://github.com/RoboMaster-Club/PurdueRM-Wiki.git . Commit . Committing your code will record changes made to the repository. git add . # add all file to index for preparation of commit git commit -m &lt;commit_message&gt; # or select specific changes to commit git commit . Branch . To look at current and locally available branch: git branch To look at all available branch: git branch -a To switch to a branch: git checkout &lt;branch_name&gt; To create a branch based on the current branch: git checkout -b &lt;new_branch_name&gt; *Before switching to a new branch, make sure you stage or stash all current changes . Merge . Merge branch to the current branch: git merge &lt;merging_branch_name&gt; .gitignore . To keep the repository clean, we want keep the minium amount of files in remote. Generated files such as compiled programs and CMake artifacts are considered redundant, and could cause problem if compiled in a new environment. Add all redundant files to .gitignore located root directory of your repo. If redundant files has already been tracked by Git, use git rm &lt;file_name&gt; to remove redundant files from history. Conflicts . If a file differs between, there will be a conflicts when attempt to merge those branch. In the conflicted file git will edit it to look like this: . &lt;&lt;&lt;&lt;&lt;&lt; HEAD ... ======= ... &gt;&gt;&gt;&gt;&gt;&gt; &lt;merging_branch_name&gt; . Everything between &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD and ======= are the conflicted lines in the current branch. Lines between ======= and &gt;&gt;&gt;&gt;&gt;&gt;&gt; &lt;merging_branch_name&gt; are from the merging branch. It is your job to chose the correct version and make appropriate edits before merging. Submodules . If your code requires other git repositories within it, you should use git submodule in order to manage their versions. ",
+    "url": "/docs/algorithm/operations/git.html#install-git",
+    
+    "relUrl": "/docs/algorithm/operations/git.html#install-git"
+  },"68": {
+    "doc": "Git",
+    "title": "Best Practice",
+    "content": "Here are some best practice regrading utilizing Git you should keep in mind while working in an collaborating environment. | Always start a new functionality in a new branch. | The master branch should be treated as a “latest working version” of the program, thus only merge completed and tested functionalities. | This will also keep the master branch and it’s work log clean, allowing us to easily revert to previous working version. | . | Always pull, merge with master and resolve conflicts before working on your code. | This will ensure your repo is current, and your working branch work with the latest version, allowing you to discover potential issues early. | . | Make sure your commit messages are readable and useful. | I really which I did that durning CS251 and CS250 and CS252 and CS471. Guess who didn’t learned this lesson. | . | Setup an SSH key for github and gitlab. | Remove the need for username and password while cloning, pushing, and pulling. | TODO: Guide and link on how to set up SSH. | . | Update .gitignore as soon as you see redundant files. | Remove the need to use git rm later. | . | . ",
+    "url": "/docs/algorithm/operations/git.html#best-practice",
+    
+    "relUrl": "/docs/algorithm/operations/git.html#best-practice"
+  },"69": {
+    "doc": "Get Started Here!",
+    "title": "Get Started Here!",
+    "content": "Overview: . This season, we have designed two project options for members to choose from. You must select and complete one of the following projects before the second meeting: . | Computer Vision: Detect the Earth in the famous Pale Blue Dot image | SWE / ROS2: Explore our code pipeline and write software to receive a message published by our robot | ML: Create an image classifier model (very difficult). | . You should have already filled out the Google Form to join the team (if not, DM @tomdonel). Within 48 hours of filling out the form, you will receive an email with your login information to the development server. To log onto the server, follow these instructions: . If you are on MacOS or Ubuntu: . | For MacOS, install XQuartz: https://www.xquartz.org/. | Open a terminal window and type: ssh -XC your_puid@tx2.purduerm.org -p 10051. | Enter your password (from email) and you will be placed into your home directory. If you are asked to accept/deny a key, accept it. | Your starter code for onboarding is waiting for you! | . If you are on Windows: . | Install X410 server from https://www.x410.dev (free version). | Install PuTTY from https://www.putty.org. | Open PuTTY. Under the “Connection” &gt; “SSH” &gt; “X11” settings, make sure the Enable X11 forwarding option is checked. Set localhost:0.0 as the “X display location”. For your login information: . | Hostname: tx2.purduerm.org | Port: 10051 | . | In the save/load box save this profile with a name. Every time you want to log in, you will load this profile. | Hit connect, and for Username/Password see your email. You will be placed into your home directory! If you are asked to accept/deny a key, accept it. | Your starter code for onboarding is waiting for you! | . You should now get started on your onboarding project! See the wiki page of your specific project for instructions. Good luck! . ",
+    "url": "/docs/algorithm/operations/onboarding/how_onboarding_works.html",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/how_onboarding_works.html"
+  },"70": {
+    "doc": "How Alg Team Operates",
+    "title": "How Alg Team Operates",
+    "content": "How does the algorithm team operate? . | We operate on a weekly basis, with a team meeting once a week. At each team meeting, we will check-in on every active issue, to ensure progress is being made. Any due/overdue issues will be the primary focus. | We follow a procedure for contributing code, which involves being assigned to an Issue in GitLab, making your changes, writing test cases, and getting your code reviewed + pushed to master | . ",
+    "url": "/docs/algorithm/operations/how_we_operate.html",
+    
+    "relUrl": "/docs/algorithm/operations/how_we_operate.html"
+  },"71": {
+    "doc": "Welcome",
+    "title": "Purdue Robomasters Wiki",
+    "content": ". Here you’ll find all the public documentation and info you’ll need to get up-to-speed with Purdue’s Robomasters. Use the sidebar to navigate through different teams and utilities. ",
+    "url": "/#purdue-robomasters-wiki",
+    
+    "relUrl": "/#purdue-robomasters-wiki"
+  },"72": {
+    "doc": "Welcome",
+    "title": "Welcome",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"73": {
+    "doc": "Standard Robot",
+    "title": "Standard Robot Design",
+    "content": "Here we present our past Standard Robot’s designs and review some critical strcuture designs. ",
+    "url": "/docs/mechanical/infantry_robot.html#standard-robot-design",
+    
+    "relUrl": "/docs/mechanical/infantry_robot.html#standard-robot-design"
+  },"74": {
+    "doc": "Standard Robot",
+    "title": "Standard Robot Building Parameters",
+    "content": "| Item | Limit | Remarks | . | Maximum Total Power Supply Capacity (Wh) | 200 | - | . | Maximum Power Supply Voltage (V) | 30 | - | . | Launching Mechanism | A 17mm Launching Mechanism | - | . | Projectile Supply Capability | Can only receive projectiles | - | . | Maximum Weight (kg) | 25 | Includes battery weight, but not the weight of the Referee System | . | Maximum Initial Size (mm, LxWxH) | 600x600x500 | Its orthographic projection on the ground should not exceed a 600*600 square | . | Maximum Expansion Size (mm, LxWxH) | 800x800x800 | Its orthographic projection on the ground should not exceed a 800*800 square | . ",
+    "url": "/docs/mechanical/infantry_robot.html#standard-robot-building-parameters",
+    
+    "relUrl": "/docs/mechanical/infantry_robot.html#standard-robot-building-parameters"
+  },"75": {
+    "doc": "Standard Robot",
+    "title": "3rd Generation",
+    "content": ". | Item | Features | Description | . | Built Date | 2022 | RMUL | . | Design by | Zijian He (he348@purdue.edu) | Download | . | Chassis | four-Wheel mecanum drive | Powered by M3508 Motors | . | Suspension | Independent suspension | - | . | Gimbal | Two-axis gimbal | Powered by GM6020 | . | Projectile Tank | On the pitch axis | Close to the flywheels | . | Shooting | M3508 Motors without gearbox | Side by side flywheels | . | Materials | Fiberglass, Aluminum | - | . Actual Robot . Chassis . This is a brand-new chassis compared to the 1st and 2nd gen Standards. We designed a structural frame by using 15x15x2 mm aluminum tubes. Instead of welding them together, we designed some “L” and “T” shape fiberglass plates to connect all the tubes. Wheel and Suspension . We gave up the four-bar linkage suspension system because the manufacturing cost was high, and it wasn’t easy to fix when some parts failed. Therefore, we designed a two-side supporting wheel and suspension system. A Mecanum wheel is supported and connected in this system by a hub on each side, like a sandwich. Bearings support the hub on each side. Two flange deep-groove ball bearings support the side connected to the motor. To ensure the bearing on both sides is coaxial, a self-aligning ball bearing is placed on another side to support the hub. Gimbal - Yaw . We integrated a slip ring in the middle of this new yaw-axis design to pass through all the signal and power wires from the chassis to the compononts above the yaw axis. In this case, we are able to spin the gimbal around the yaw axis without any angle limitations. A cross roller bearing supports the hub of this yaw axis, which can handle radial, thrust and moment loads at the same time. The slip ring has 24 cahnnels. Gimbal - Pitch . Like the 1st generation standard robot, we moved the pitch-axis motor from the top to the gimbal’s side to lower the center of gravity. We used a two-bar linkage to manipulate the pitch axis, and the mounting point is closer to the bullet tank. ### Projectile Shooting and Feeding We used M3508 motors to power the flywheels, but we disassembled the planetary gearbox so that they could reach to highest rpm. We customized two Polyurethane(PU) friction wheels with D55 hardness, mounting them to those two motors to shoot projectiles. An M2006 motor powers a rotor inside the tank to feed the projectiles one by one toward the flywheels. We faced projectile jamming at the tank exit during the competition. We solved this problem by placing some soft material on the top of the exit to stop projectiles from falling down to the exit. ",
+    "url": "/docs/mechanical/infantry_robot.html#3rd-generation",
+    
+    "relUrl": "/docs/mechanical/infantry_robot.html#3rd-generation"
+  },"76": {
+    "doc": "Standard Robot",
+    "title": "2nd Generation",
+    "content": ". | Item | Features | Description | . | Built Date | 2019&amp;2022 | RMUC&amp;ICRA | . | Design by | Zijian He (he348@purdue.edu) | Download | . | Chassis | four-Wheel mecanum drive | Powered by M3508 Motors | . | Suspension | Independent suspension | - | . | Gimbal | Two-axis gimbal | Powered by GM6020 | . | Projectile Tank | Under the gimabl | Chain route from bottom to top | . | Shooting | Two drone propeller motors | Side by side flywheels | . | Materials | Fiberglass, Aluminum | - | . Actual Robot . Chassis . We kept using the chassis from last version of Standard. We made slightly changes on mounting holes to fit our new gimbal design. Gimbal . Gimbal system is a mainly update of 2nd generation Standard. We replaced the older gimbal motor by GM6020. The motor adopts a hollow shaft design that offers high torque density, control precision, flexible interaction methods, and intelligent protection. ",
+    "url": "/docs/mechanical/infantry_robot.html#2nd-generation",
+    
+    "relUrl": "/docs/mechanical/infantry_robot.html#2nd-generation"
+  },"77": {
+    "doc": "Standard Robot",
+    "title": "1st Generation",
+    "content": ". | Item | Features | Description | . | Built Date | 2019 | RMUC | . | Chassis | four-Wheel mecanum drive | Powered by M3508 Motors | . | Suspension | Independent suspension | - | . | Gimbal | Two-axis gimbal | Powered by RM6025 | . | Projectile Tank | Under the gimabl | Chain route from bottom to top | . | Shooting | Two drone propeller motors | Side by side flywheels | . | Materials | Carbon fibers, Stainless steel frame, Aluminum | - | . Acutal Robot . Chassis . Couple large carbon-fiber sheets are supported by a welded stainless-steel frame. A T-shape bumper front of the robot chassis to protect suspension from the collsion. Four vertical standoff are mounted on the bottom plate and top plate of the chassis in order to solidly support the suspension system. Wheel and Suspension . A 4-link suspension system was designed for 1st generation Standard. There are two reasons to install a suspension system in our chassis. First, we are using Mecanum wheels, so we have to ensure the robot’s four wheels are firmly attached to the ground to help the control team better program the chassis’s motion. Secondly, there are some bumps on the battlefield. A suspension can help the robot to eliminate significant vibration and protect the robot. The Mecanum wheel is connected to the motor by an aluminum hub. Even though this hub solidly connects a wheel and M3508 motor, two flange deep-groove ball bearings (red in the picture) support the hub shaft to accommodate radial load from the chassis and protect the output shaft of the motor. Gimbal . Two strategies are applied to reduce the load on both yaw and pitch axis motors. | A four-bar linkage is utilized to actuate both axes, as well as saves space and lower the center of gravity | Projectile tank is placed on the chassis instead of on the pitch axis, so it highly reduces the inertia of the pitch axis. | . A needle roller thrust bearing(red) and a deep-groove ball bearing (blue) are placed on the yaw axis. The needle roller thrust bearing can be fitted to a small space but support a large axial load. By combing thrust bearing and deep-groove bearing, which predominantly supports the radial load, we can well fit and mobilize the gimbal yaw axis. ### Projectile Shooting and Feeding . Projectiles are fed by a rotor through the middle of the yaw axis, passed through the pitch axis, and finally arrive at the flywheels. Two flywheels are aligned side by side. The distance between two flywheels is smaller than the projectiles’ diameter, so the projectiles can be squeezed forward and launched out of the barrel. ",
+    "url": "/docs/mechanical/infantry_robot.html#1st-generation",
+    
+    "relUrl": "/docs/mechanical/infantry_robot.html#1st-generation"
+  },"78": {
+    "doc": "Standard Robot",
+    "title": "Standard Robot",
+    "content": " ",
+    "url": "/docs/mechanical/infantry_robot.html",
+    
+    "relUrl": "/docs/mechanical/infantry_robot.html"
+  },"79": {
+    "doc": "Mechanical",
+    "title": "Mechanical Team",
+    "content": "The mechanical team is the backbone of our club. With over 30 members, mechanical team design, prototype and manufacture all robots. Using Solidworks, members design all mechanical parts and combine electrical parts into digital assembly that provide a platform for all other teams to perform their magic. Our ultimate goal is for members to design for manufacturing. As we utilize different manufacturing methods including 3D printing, CNC milling, Water-jet cutting, members not only gain knowledge on how to operate the machines outside of classroom, but also improve their ability to designing CAD and prepare themselves to become better engineers. Members will also learn to design an efficient manufacturing process and perform basic failure mode analysis to prevent potential hazards and malfunctions. ",
+    "url": "/docs/mechanical/mechanical.html#mechanical-team",
+    
+    "relUrl": "/docs/mechanical/mechanical.html#mechanical-team"
+  },"80": {
+    "doc": "Mechanical",
+    "title": "Design Tool",
+    "content": ". | SolidWorks | . ",
+    "url": "/docs/mechanical/mechanical.html#design-tool",
+    
+    "relUrl": "/docs/mechanical/mechanical.html#design-tool"
+  },"81": {
+    "doc": "Mechanical",
+    "title": "Design Library",
+    "content": ". | LINKable Part Community | Misumi | . ",
+    "url": "/docs/mechanical/mechanical.html#design-library",
+    
+    "relUrl": "/docs/mechanical/mechanical.html#design-library"
+  },"82": {
+    "doc": "Mechanical",
+    "title": "Overview of Robot Fleet",
+    "content": "There are 7 different kinds of robots in total in RoboMaster University Championship (RMUC). They are Standard, Hero, Engineer, Sentry, Aerial, Dart System and Radar. However, the North America region is only hosing RoboMaster University League (RMUL) competition, which includes 3V3 Confrontation and Standard Confrontation. In the “3V3 Confrontation”, participating teams need to independently develop Standard, Hero and Sentry to participate in tactical battles in the designated battlefield and participate in tactical battles in the designated battlefield. Participants control their robots to attack enemy’s robots and Base by launching projectiles. At the end of the match, the team with the highest remaining Base HP wins. In the “Standard Confrontation”, Standards from each team (1V1) fight against each other by shooting the Armor Modules. At the end of the match, the team with the highest remaining Standard HP wins. Standard . Also named as Infantry Robot, launching 17mm projectiles and acting as the major output unit at the battlefield. Three Standards are allowed to present in RMUC, and two Standards are allowed to present in 3v3 of RMUL . Hero . Launching 42mm projectiles at the opponents to cause a larger amount of damage. One Hero robot is allowed in 3v3 of RMUL . Engineer . Engineer Scrambles for resources and resurrects teammates . Sentry . Fully automatic and moving along the Sentry rail to defend the base. One Sentry is allowed in 3v3 of RMUL . Aerial . Providing air support and a bird view for the entire team . Dart System . Launching Darts to attack enemy’s Output and Base . Radar . Equipped with the most excellent computing power to provide vision and warning information to the entire team . ",
+    "url": "/docs/mechanical/mechanical.html#overview-of-robot-fleet",
+    
+    "relUrl": "/docs/mechanical/mechanical.html#overview-of-robot-fleet"
+  },"83": {
+    "doc": "Mechanical",
+    "title": "Mechanical",
+    "content": " ",
+    "url": "/docs/mechanical/mechanical.html",
+    
+    "relUrl": "/docs/mechanical/mechanical.html"
+  },"84": {
+    "doc": "ML Project",
+    "title": "This page will serve to briefly summarize the goals and instructions for the ML onboarding project.",
+    "content": "Objective: Create an image classifier following this tutorial: https://www.tensorflow.org/tutorials/images/classification . Goals: . | Get introduced to basic machine learning | Understand how image classifiers are created | Introduced to terms such as overfitting, accuracy, loss… | . Instructions: . | Log onto the development server and cd into onboarding_files/ml. | There will be a file called instructions.txt. It will provide very brief instructions on what this project entails | Open the tutorial. You should now create a new .py file and get started! | Specific expectations and deliverables are in the instructions.txt file. | . Resources and helpful info: If you don’t understand a step, look it up! No shame in consulting documentation. The tutorial should be entirely comprehensive though. ",
+    "url": "/docs/algorithm/operations/onboarding/ml_project.html#this-page-will-serve-to-briefly-summarize-the-goals-and-instructions-for-the-ml-onboarding-project",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/ml_project.html#this-page-will-serve-to-briefly-summarize-the-goals-and-instructions-for-the-ml-onboarding-project"
+  },"85": {
+    "doc": "ML Project",
+    "title": "ML Project",
+    "content": " ",
+    "url": "/docs/algorithm/operations/onboarding/ml_project.html",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/ml_project.html"
+  },"86": {
+    "doc": "Onboarding Process",
+    "title": "Onboarding Process",
+    "content": "Check the sub-pages to learn how to log onto the development server, how our onboarding works, how each project works, and more! . ",
+    "url": "/docs/algorithm/operations/onboarding.html",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding.html"
+  },"87": {
+    "doc": "Navigating the Repo",
+    "title": "Navigating the GitLab Repository",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . Using the GitLab is one of the first main tasks you should get familiar with. To see documentation of individual portions of the code, see the repo, it’s already documented. We have a TX2 server set up to do work on, which is also the platform we will run all of our software on. You should already have sent your public SSH key to your team lead (generated by ssh-keygen). Also, you should understand how to SSH into the server (ssh name@address.org --port xxx). I will not provide the address or port for security reasons. From here, feel free to make your own folder in the home directory, and clone the GitLab repo using git clone &lt;git url&gt;. Make sure to get all required submodules using git submodule update --init and git submodule update --init --remote. ",
+    "url": "/docs/algorithm/archive/repo.html#navigating-the-gitlab-repository",
+    
+    "relUrl": "/docs/algorithm/archive/repo.html#navigating-the-gitlab-repository"
+  },"88": {
+    "doc": "Navigating the Repo",
+    "title": "Compiling",
+    "content": "cmake . to generate a makefile make -j `nproc` to build the repo using all available processing units (please don’t use all cores while others are using the server). For more specific compiling options and flags, see the table on https://gitlab.com/robomaster-club/armor-detection. ",
+    "url": "/docs/algorithm/archive/repo.html#compiling",
+    
+    "relUrl": "/docs/algorithm/archive/repo.html#compiling"
+  },"89": {
+    "doc": "Navigating the Repo",
+    "title": "Further Info",
+    "content": "Get familiar with using git, including cloning, pushing, and definitely switching branches using the checkout command. ",
+    "url": "/docs/algorithm/archive/repo.html#further-info",
+    
+    "relUrl": "/docs/algorithm/archive/repo.html#further-info"
+  },"90": {
+    "doc": "Navigating the Repo",
+    "title": "Navigating the Repo",
+    "content": " ",
+    "url": "/docs/algorithm/archive/repo.html",
+    
+    "relUrl": "/docs/algorithm/archive/repo.html"
+  },"91": {
+    "doc": "SWE/ROS2 Project",
+    "title": "This page will serve to briefly summarize the goals and instructions for the SWE and ROS2 project.",
+    "content": "Objective: Create a ROS2 node that subscribes to the topic “talker” and prints out the message received . Goals: . | Get introduced to ROS2, the industry-standard modular communication framework in robotics. | Understand how to create and communicate between nodes in our codebase . | General node structure | CMakeLists | package.xml | . | Understand best practices in software engineering | . Instructions: . | Log onto the development server and cd into onboarding_files/ros2/listener. | You have *three files you need to complete. Don’t worry, two are literally just filling in a couple words. Go ahead and follow the instructions in the three files to complete onboarding: CMakeLists.txt, package.xml, and listener_starter.cpp. | To build your project: cd into the onboarding_files/ros2/ folder and run source /opt/ros/foxy/setup.sh and colcon build. Run source install/setup.sh to update changes. | To test your project: you will need to run the talker node first. Login to the server in a second window and cd into the talker folder and run source ../install/setup.sh. Start the talker node using ros2 run talker_example talker. | Back in the original window, cd into the your listener project folder, and run ros2 run &lt;pkg_name&gt; &lt;executable_name&gt;. Ensure the listener receives the correct message: “You have completed the ROS2 onboarding project!”. | . Resources and helpful info: If you don’t understand a step, look it up! No shame in consulting documentation. Let’s just say writing a listener node is a very common task. ",
+    "url": "/docs/algorithm/operations/onboarding/ros2_project.html#this-page-will-serve-to-briefly-summarize-the-goals-and-instructions-for-the-swe-and-ros2-project",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/ros2_project.html#this-page-will-serve-to-briefly-summarize-the-goals-and-instructions-for-the-swe-and-ros2-project"
+  },"92": {
+    "doc": "SWE/ROS2 Project",
+    "title": "Common bugs",
+    "content": ". | Q: Error while building, relating to comments in the file . | A: Remove the comments in the file. I belive triple tick comments \"\"\" causes bugs which is my mistake. | . | . ",
+    "url": "/docs/algorithm/operations/onboarding/ros2_project.html#common-bugs",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/ros2_project.html#common-bugs"
+  },"93": {
+    "doc": "SWE/ROS2 Project",
+    "title": "SWE/ROS2 Project",
+    "content": " ",
+    "url": "/docs/algorithm/operations/onboarding/ros2_project.html",
+    
+    "relUrl": "/docs/algorithm/operations/onboarding/ros2_project.html"
+  },"94": {
+    "doc": "How to Test Code",
+    "title": "How to Test Code",
+    "content": "Writing Test Cases . Every piece of code should be tested before or as you write it. Each project should have a skeleton for tests inside its tests folder. You will create a new TEST function similar to the one below: . // test/test_your_nodes.cpp #include &lt;gtest/gtest.h&gt; #include &lt;your_node1/your_node1.hpp&gt; // Replace with the correct path to your nodes' header files // #include other node headers as necessary // Test case for your_node1 functions TEST(YourNode1Test, TestFunction1) { your_node1::YourNode1 node1; // Create an instance of your_node1 ASSERT_EQ(node1.function1(), expected_value); // Call functions and test their behavior // Add more tests for other functions if needed } // Add more test cases for other nodes if needed int main(int argc, char **argv) { testing::InitGoogleTest(&amp;argc, argv); return RUN_ALL_TESTS(); } . Your package.xml and CMakeLists.txt need to be configured to run this test file. If you are not creating a new node/project, you do not need to worry about this. ",
+    "url": "/docs/algorithm/operations/how_we_operate/testing_code.html",
+    
+    "relUrl": "/docs/algorithm/operations/how_we_operate/testing_code.html"
+  },"95": {
+    "doc": "Contributing to the Wiki",
+    "title": "How to Contribute to the Wiki",
+    "content": "Go under your team’s folder, and make a new Markdown (.md) file. To the top of the file, add a header so Jekyll knows how to interpret the page. To make a new upper-level page (such as the Algorithm Team page or Control Team Page), use a header like this: . --- layout: default title: page name nav_order: order to appear in sidebar (1, 2, 3...) has_children: true --- . To make a sub-page under a top-level page (such as the YoloV5 page under Algorithm Team), use a header similar to this: . --- layout: default title: page name parent: parent page title name nav_order: position to appear in sidebar (1, 2, 3...) --- . ",
+    "url": "/docs/wiki-tutorial/tutorial.html#how-to-contribute-to-the-wiki",
+    
+    "relUrl": "/docs/wiki-tutorial/tutorial.html#how-to-contribute-to-the-wiki"
+  },"96": {
+    "doc": "Contributing to the Wiki",
+    "title": "Make sure the parent name is NOT the filename, but rather the title of the page in its header",
+    "content": "For example, I could make a upper level page named “alg_team.md” with the header: . --- layout: default title: Algorithm nav_order: 2 has_children: true --- . then to add a child page, i would make another .MD file with the header: . --- layout: default title: YoloV5 Annotation Forms parent: Algorithm nav_order: 7 --- . I highly recommend checking out the alg team folder as an example. ",
+    "url": "/docs/wiki-tutorial/tutorial.html#make-sure-the-parent-name-is-not-the-filename-but-rather-the-title-of-the-page-in-its-header",
+    
+    "relUrl": "/docs/wiki-tutorial/tutorial.html#make-sure-the-parent-name-is-not-the-filename-but-rather-the-title-of-the-page-in-its-header"
+  },"97": {
+    "doc": "Contributing to the Wiki",
+    "title": "Learning markdown",
+    "content": "Check out any online tutorial such as this one . ",
+    "url": "/docs/wiki-tutorial/tutorial.html#learning-markdown",
+    
+    "relUrl": "/docs/wiki-tutorial/tutorial.html#learning-markdown"
+  },"98": {
+    "doc": "Contributing to the Wiki",
+    "title": "Contributing to the Wiki",
+    "content": " ",
+    "url": "/docs/wiki-tutorial/tutorial.html",
+    
+    "relUrl": "/docs/wiki-tutorial/tutorial.html"
+  },"99": {
+    "doc": "NVIDIA TX2",
+    "title": "The NVIDIA Jetson Tx2",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . We use the NVIDIA Jetson Tx2 module to run all of our computer vision and AI-related software on the robot. It’s packed with a 256-core Pascal GPU and 256 CUDA Cores, and 8GB 128-bit LPDDR4 Memory. Since the internal storage is only 32GB, you should equip the Tx2 with a 32GB or higher MicroSD card. ",
+    "url": "/docs/algorithm/archive/tx2.html#the-nvidia-jetson-tx2",
+    
+    "relUrl": "/docs/algorithm/archive/tx2.html#the-nvidia-jetson-tx2"
+  },"100": {
+    "doc": "NVIDIA TX2",
+    "title": "Booting up the Tx2",
+    "content": "On the east end of the PCB there’s a green terminal with a ground and power jack. Properly connect jumper wires to that terminal and to a power source such as the robot or an external battery. The Tx2 will immediately begin to boot up. ",
+    "url": "/docs/algorithm/archive/tx2.html#booting-up-the-tx2",
+    
+    "relUrl": "/docs/algorithm/archive/tx2.html#booting-up-the-tx2"
+  },"101": {
+    "doc": "NVIDIA TX2",
+    "title": "Using a camera on the Tx2",
+    "content": "We use the Intel RealSense camera in order to capture not only RGB video, but also infrared, depth, gyroscopic, and acceleration data of the robot. Simply enough, it connects over USB. To record video from the camera, refer to this section of the GItLab: https://gitlab.com/robomaster-club/realsense-recorder/-/tree/main/ . Here there are various setup scripts, and a service you can schedule to start on boot to auto-record once the Tx2 turns on. You can edit and recompile recorder.cpp and viewer.cpp to enable/disable features of the camera, or set FPS. The runner saves videos in .bag format at /home/purduerm/sdcard/, which can be viewed using Intel RealSense Viewer on a PC. IMPORTANT TIP: The runner script will only record video if the value of GPIO pin zero is 1, which is its default state. This is cool, since if you want to stop recording, you can simply take a female-to-female jumper and connect pin 0 to pin 7 (gnd). ",
+    "url": "/docs/algorithm/archive/tx2.html#using-a-camera-on-the-tx2",
+    
+    "relUrl": "/docs/algorithm/archive/tx2.html#using-a-camera-on-the-tx2"
+  },"102": {
+    "doc": "NVIDIA TX2",
+    "title": "COMMON ISSUES WITH THE TX2",
+    "content": ". | The Tx2 does not boot . | Likely a SD card configuration issue. Connect the Tx2 to an external monitor, and nano /etc/fstab. If there is an entry for an SD card, update the entry’s UUID to match your SD card’s UUID, and reboot. Then check the SD card’s mount folder to ensure it was properly mounted on boot. | . | . ",
+    "url": "/docs/algorithm/archive/tx2.html#common-issues-with-the-tx2",
+    
+    "relUrl": "/docs/algorithm/archive/tx2.html#common-issues-with-the-tx2"
+  },"103": {
+    "doc": "NVIDIA TX2",
+    "title": "NVIDIA TX2",
+    "content": " ",
+    "url": "/docs/algorithm/archive/tx2.html",
+    
+    "relUrl": "/docs/algorithm/archive/tx2.html"
+  },"104": {
+    "doc": "Version Control",
+    "title": "How to",
+    "content": "Clone a remote repository to local . git clone &lt;url-to-repository&gt; . this command copies the repository from remote and creates all the commit history of the project from all branches. Branch Operation . git checkout &lt;branch-name&gt; . this command checks out to the specified branch . git checkout -b &lt;branch-name&gt; . this command creates the new branch and checks out to this branch . Commit Operation . before staging all your changes, please check you are currently on the right branch associated with the feature you are working on. The following command displays the current git status, including current branch. git status . If you are on the wrong branch, you have to stash all your changes before checking out to other branches, or you will lost ALL the changes you made. The following command stash the changes for you to pop it into other branches. git stash . git checkout &lt;the-correct-branch&gt; git stash pop . When you are ready to commit, stage and commit your changes. Note: commit description should be concise, less than 10 words. If you cannot describe the change in 10 words, it typically means you are squishing too much changes into one single commit. git add . git commit -m \"commit description\" . Push to remote . All the operations will only affect the git repository on local machine. You can have push the changes to the remote in order to sync your commitment to the team github. Use push command to do this. git push . You might get an warning if you create a local branch, while the remote doesn’t have this branch. Set upstream branch to solve this issue. git push --set-upstream origin &lt;branch-name&gt; . ",
+    "url": "/docs/control/version-control.html#how-to",
+    
+    "relUrl": "/docs/control/version-control.html#how-to"
+  },"105": {
+    "doc": "Version Control",
+    "title": "Hardware Library",
+    "content": "Why hardware library? . The control teams is currently looking at more than 5 robots. While the control logic is totally different among different robots, they share the same low-level drivers and algorithm. git submodule add &lt;url-to-library&gt; . ",
+    "url": "/docs/control/version-control.html#hardware-library",
+    
+    "relUrl": "/docs/control/version-control.html#hardware-library"
+  },"106": {
+    "doc": "Version Control",
+    "title": "Version Control",
+    "content": " ",
+    "url": "/docs/control/version-control.html",
+    
+    "relUrl": "/docs/control/version-control.html"
+  },"107": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "MATLAB Symbolic Calculation for Wheel-Legged Balancing Robot",
+    "content": " ",
+    "url": "/docs/control/wheel_legged_state_space.html#matlab-symbolic-calculation-for-wheel-legged-balancing-robot",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#matlab-symbolic-calculation-for-wheel-legged-balancing-robot"
+  },"108": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Define Symbolic Variables",
+    "content": "syms A_x A_y B_x B_y x(t) theta(t) phi(t) T_A(t) T_B(t) M_A M_B M_R g L_1 L_2 L_r1 L_r2 x_dot phi_dot theta_dot I_B I_R x_ddot phi_ddot theta_ddot R I_A I_r syms A_x_sol A_y_sol B_x_sol B_y_sol . ",
+    "url": "/docs/control/wheel_legged_state_space.html#define-symbolic-variables",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#define-symbolic-variables"
+  },"109": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Eliminate Reaction Force at Point A and B: $A_x$ $A_y$ $B_x$ $B_y$",
+    "content": "Define Equation of Motion . eq1 = M_B * diff(x + L_1*sin(theta) + L_2 * sin(phi),t, 2) == B_x; eq2 = M_B*diff(L_1 * cos(theta) + L_2 * cos(phi),t,2) == B_y - M_B * g; eq3 = M_R * diff(x + L_1 * sin(theta),t,2) == -A_x - B_x; eq4 = M_R * diff(L_1 * cos(theta),t,t) == -A_y - B_y - M_R * g; . solve() function does not support diff type, therefore we need to substitude the $\\frac{d}{dt}$ and $\\frac{d^2 }{dt^2 }$ with dotted notation . eq1 = subs(eq1, [diff(x,t,2) diff(phi,t,2) diff(theta,t,2) diff(x,t) diff(phi,t) diff(theta,t)], [ ... x_ddot phi_ddot theta_ddot x_dot phi_dot theta_dot]); eq2 = subs(eq2, [diff(x,t,2) diff(phi,t,2) diff(theta,t,2) diff(x,t) diff(phi,t) diff(theta,t)], [ ... x_ddot phi_ddot theta_ddot x_dot phi_dot theta_dot]); eq3 = subs(eq3, [diff(x,t,2) diff(phi,t,2) diff(theta,t,2) diff(x,t) diff(phi,t) diff(theta,t)], [ ... x_ddot phi_ddot theta_ddot x_dot phi_dot theta_dot]); eq4 = subs(eq4, [diff(x,t,2) diff(phi,t,2) diff(theta,t,2) diff(x,t) diff(phi,t) diff(theta,t)], [ ... x_ddot phi_ddot theta_ddot x_dot phi_dot theta_dot]); . Eliminate $A_x$ $A_y$ $B_x$ $B_y$ . [A_x, A_y, B_x, B_y] = solve([eq1 eq2 eq3 eq4], [A_x, A_y, B_x, B_y]); . ",
+    "url": "/docs/control/wheel_legged_state_space.html#eliminate-reaction-force-at-point-a-and-b-a_x-a_y-b_x-b_y",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#eliminate-reaction-force-at-point-a-and-b-a_x-a_y-b_x-b_y"
+  },"110": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Calculating $\\ddot{\\phi}$, $\\ddot{\\theta}$, $\\ddot{x}$",
+    "content": "Define Equation of Motion . eq5 = phi_ddot == (-T_B + B_x*L_2*cos(phi) + B_y * L_2 * sin(phi))/ I_B; eq6 = theta_ddot == (B_x * L_r2 * cos(theta) - B_y * L_r2 * sin(theta) - A_x * L_r1 * cos(theta) + A_y * L_r1 * sin(theta) - T_A + T_B) / I_r; eq7 = x_ddot == R* (T_A - R*A_x)/ (I_A - M_A * R^2); . Solve for $\\ddot{\\phi}$, $\\ddot{\\theta}$, $\\ddot{x}$ . [x_ddot, theta_ddot, phi_ddot] = solve([eq5, eq6, eq7], [x_ddot theta_ddot phi_ddot]); . ",
+    "url": "/docs/control/wheel_legged_state_space.html#calculating-ddotphi-ddottheta-ddotx",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#calculating-ddotphi-ddottheta-ddotx"
+  },"111": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Jacobian Linearization of State-Space Model",
+    "content": "Define state vector, input vector . X = [x, x_dot, theta, theta_dot, phi, phi_dot]; U = [T_A, T_B]; X_dot = [x_dot;x_ddot;theta_dot;theta_ddot;phi_dot;phi_ddot]; . Jacobian Calculation . X_dot = simplify(collect(X_dot, X)); Jacobian_A = jacobian(X_dot, X); X_dot = simplify(collect(X_dot, U)); Jacobian_B = jacobian(X_dot, U); . Substitude phycial properties $I_A ,I_B ,I_r ,L_1 ,L_2 ,L_r 1,L_r 2,M_A ,M_B ,M_R ,R,g$, and system balance point $\\dot{\\phi} ,\\dot{\\theta} ,\\dot{x} ,\\phi ,\\theta ,x$ . A = subs(Jacobian_A,[I_A,I_B,I_r,L_1,L_2,L_r1,L_r2,M_A,M_B,M_R,R,g,phi_dot,theta(t),theta_dot,x_dot, phi(t)],[5e-5,0.003603312/2,0.00063466347,0.16,0.2,0.119,0.041,80,2207.21/2,173.11,0.03,9.81,0,0,0,0,0]); B = subs(Jacobian_B,[I_A,I_B,I_r,L_1,L_2,L_r1,L_r2,M_A,M_B,M_R,R,g,phi_dot,theta(t),theta_dot,x_dot, phi(t)],[5e-5,0.003603312/2,0.00063466347,0.16,0.2,0.119,0.041,80,2207.21/2,173.11,0.03,9.81,0,0,0,0,0]); A = double(A) B = double(B) . ",
+    "url": "/docs/control/wheel_legged_state_space.html#jacobian-linearization-of-state-space-model",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#jacobian-linearization-of-state-space-model"
+  },"112": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Controllability",
+    "content": "Full rank . rank(ctrb(A,B)) . ",
+    "url": "/docs/control/wheel_legged_state_space.html#controllability",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#controllability"
+  },"113": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Reccati LQR Calculation",
+    "content": "Q=diag([800 600 700 1 1000 1]) %x d_x theta d_theta phi d_phi R=[1 0;0 0.25] %T Tp K1=lqr(A,B,Q,R) . ",
+    "url": "/docs/control/wheel_legged_state_space.html#reccati-lqr-calculation",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html#reccati-lqr-calculation"
+  },"114": {
+    "doc": "Wheel-Legged Balancing State Space",
+    "title": "Wheel-Legged Balancing State Space",
+    "content": " ",
+    "url": "/docs/control/wheel_legged_state_space.html",
+    
+    "relUrl": "/docs/control/wheel_legged_state_space.html"
+  },"115": {
+    "doc": "Using YoloV5",
+    "title": "Setting up YoloV5",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . You will need Python and Pip installed for this step. Make a new working directory for setting up Yolo. git clone https://github.com/ultralytics/yolov5 . Now installing all requirements for Yolo: . pip install -r yolov5/requirements.txt . (As a forewarning, we were unable to use Yolo on M1 Macs due to architecture issues. You may need to compile a few libraries from source to do so.) . ",
+    "url": "/docs/algorithm/archive/yolo.html#setting-up-yolov5",
+    
+    "relUrl": "/docs/algorithm/archive/yolo.html#setting-up-yolov5"
+  },"116": {
+    "doc": "Using YoloV5",
+    "title": "Getting a dataset",
+    "content": "To make a suitable dataset, you will need a large collection of images of the object you want to detect. The size is to be determined by you. After collecting a set of images, you will need to add bounding boxes to the images and export the dataset into the YoloV5 format. PRO Tip: . Use roboflow.com to simplify this process. Simply upload the images, and use the built-in bounding box feature to add bounding boxes. You can also add preprocessing/augmentations to diversify your data as needed, however this step is not always necessary. (Then export the dataset in YoloV5 (pytorch) format). ",
+    "url": "/docs/algorithm/archive/yolo.html#getting-a-dataset",
+    
+    "relUrl": "/docs/algorithm/archive/yolo.html#getting-a-dataset"
+  },"117": {
+    "doc": "Using YoloV5",
+    "title": "Train YoloV5",
+    "content": "Download the dataset you created, and paste all the files and folders into the root directory of your YoloV5 folder. To train YoloV5, run the following command: . python train.py --img &lt;image_size&gt; --cfg yolov5s.yaml --batch 32 --epochs &lt;epochs&gt; --data data.yaml --weights yolov5s.pt --workers 24 . This process will likely take forever, so please use a beefy PC. Also, increasing epochs will likely increase the accuracy of YoloV5, but it will increase training time and detection time hugely. Finally, these settings are not optimal for every use case. You will need to adjust these parameters. ",
+    "url": "/docs/algorithm/archive/yolo.html#train-yolov5",
+    
+    "relUrl": "/docs/algorithm/archive/yolo.html#train-yolov5"
+  },"118": {
+    "doc": "Using YoloV5",
+    "title": "Testing YoloV5",
+    "content": ". | python detect.py --source 0 for webcam | python detect.py --source file.jpg for image | and so on for other data types | . ",
+    "url": "/docs/algorithm/archive/yolo.html#testing-yolov5",
+    
+    "relUrl": "/docs/algorithm/archive/yolo.html#testing-yolov5"
+  },"119": {
+    "doc": "Using YoloV5",
+    "title": "Demo:",
+    "content": "Detecting Enemy Robots via YOLOv5: https://youtu.be/4KRM93TuxyA . ",
+    "url": "/docs/algorithm/archive/yolo.html#demo",
+    
+    "relUrl": "/docs/algorithm/archive/yolo.html#demo"
+  },"120": {
+    "doc": "Using YoloV5",
+    "title": "Using YoloV5",
+    "content": " ",
+    "url": "/docs/algorithm/archive/yolo.html",
+    
+    "relUrl": "/docs/algorithm/archive/yolo.html"
+  },"121": {
+    "doc": "YoloV5 Training Tips",
+    "title": "YoloV5 Training Tips",
+    "content": "By Tom O’Donnell (tkodonne@purdue.edu) . If you’re working on the “Training YoloV5” onboarding project, odds are you’re going to get confused at one point or another. The instructions posted in the Discord server were intentionally left vague, as the goal is for you to understand for yourself what results in a good model. However, this has left people stuck, so I’ve written this starter pack to explain the components of training. You do not need to understand all of this page, but parts of it will likely come in handy. Feel free to skim parts you don’t want to read. Yes, this is complicated, but it’s a chance to learn a new skill and insight into how our robot classification actually works. ",
+    "url": "/docs/algorithm/archive/yolo_tips.html",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html"
+  },"122": {
+    "doc": "YoloV5 Training Tips",
+    "title": "Table of Contents",
+    "content": ". | What Comprises a Dataset? | Files and Folder Layout | How to Train Yolo | Evaluating Model Performance | Summary and a step-by-step | . ",
+    "url": "/docs/algorithm/archive/yolo_tips.html#table-of-contents",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html#table-of-contents"
+  },"123": {
+    "doc": "YoloV5 Training Tips",
+    "title": "What comprises a dataset?",
+    "content": "- Images . Many pictures containing the item you want to train to detect, the number / diversity of which depends on your needs. - Annotations . Text files describing where in the image your desired object appears. Every image you have in your dataset REQUIRES an individual annotation file, it’s how yolo can learn about your objects! . Here’s an example of an annotation file: . image_123.txt contents: . 5 0.209316 0.241667 0.116745 0.091667 4 0.715802 0.295833 0.073113 0.091667 . As such, each line of an annotation file follows the format: . object_class x_center_object y_center_object bounding_box_width bounding_box_height . Fortunately, any dataset you find online at Roboflow or other sites will likely have annotation files already. If you’re gathering your own data from scratch, however, you will need to create these files yourself. - data.yaml . This file tells yolo exactly where your images and annotation files are located, along with info on the types of objects you’re trying to train to detect. Again, datasets you find online will probably have this file already. ",
+    "url": "/docs/algorithm/archive/yolo_tips.html#what-comprises-a-dataset",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html#what-comprises-a-dataset"
+  },"124": {
+    "doc": "YoloV5 Training Tips",
+    "title": "Files and Folder Layout",
+    "content": "This is probably the part of this article you came here for. So you have images, you have annotation files, and you have your data.yaml`. What now? . After setting up yolo, you should open the resulting yolov5 folder. Inside of it is a folder named data. Take your data.yamland place it in here. You’ll also notice two folders called images and labels. Each one of these two folders is subdivided into three groups: test, train, and val, which I briefly described earlier. If you look at your downloaded dataset, it should also be divided into groups of the same names. So go ahead and place your train images into the train folder, test images into test, and val images into val. Similarly, go back up one directory, and place your test, train, and val annotation files into their respective folders in labels. In summary, all of these folders/files should be in your yolov5/data folder: . | data.yaml | images/ . | test/ | train/ | val/ | . | labels/ . | test/ | train/ | val/ | . | . And of course your test/tain/val images and labels are in the correct folders now. ",
+    "url": "/docs/algorithm/archive/yolo_tips.html#files-and-folder-layout",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html#files-and-folder-layout"
+  },"125": {
+    "doc": "YoloV5 Training Tips",
+    "title": "How to train yolo",
+    "content": ". | Open a command prompt window inside /yolov5. | Customize and run this command depending on your PC and desired epochs: . python train.py --img &lt;image_size&gt; --cfg yolov5s.yaml --batch &lt;batches&gt; --epochs &lt;epochs&gt; --data` data.yaml --weights yolov5s.pt --workers &lt;workers&gt; . | For example, you may run: python train.py --img 848 --cfg yolov5s.yaml --batch 24 --epochs 40 --data data.yaml --weights yolov5s.pt --workers 12 | . | You will probably run into some errors. If you’re running out of memory, decrease your batch size to start. Other issues are solvable with a simple google search usually. | . ",
+    "url": "/docs/algorithm/archive/yolo_tips.html#how-to-train-yolo",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html#how-to-train-yolo"
+  },"126": {
+    "doc": "YoloV5 Training Tips",
+    "title": "Evaluating Performance",
+    "content": "After training for your specified number of epochs, yolo will output a number of files and images into theruns/train/expX folder. The model resulting from training is saved into weights. You’ll notice there are actually TWO files, best.pt and last.pt. last.pt saves your training results after the last epoch you trained on, and best.pt saves your best training results, which is actually quite cool. To actually see how your model performs, you’ll be most interested in viewing results.csv, and you may actually want to plot this data for easier viewing. You’ll want your loss to be as low as possible. Typically it’ll flatline, and when it starts to increase again that’s a good sign your training is done, or overfitting is starting to occur. mAP (mean average precision) is a metric combining the precision-recall curve into a single value representing the average of all precisions. This is the past of the onboarding project I left intentionally vague. Partially because learning this is not a one-size-fits-all approach, where you can definitely say training is done after x number of epochs or when your mAP hits a certain value. ",
+    "url": "/docs/algorithm/archive/yolo_tips.html#evaluating-performance",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html#evaluating-performance"
+  },"127": {
+    "doc": "YoloV5 Training Tips",
+    "title": "Summary",
+    "content": ". | A dataset is made up of images, labels, and data.yaml describing where yolo can find those files. | Images and labels are split up into test, train, and val subdivisions. You will place your images and labels in their respective subdivison folders, and data.yaml inside the /yolov5/data/ folder prior to training. | You need to customize your training command to your training goals and PC hardware. | You can use results.csv to evaluate your model’s performance. | . If you want a step-by-step, here you go: . | Gather images and annotations | Create data.yaml | Place data.yaml into /yolov5/data/ | Place each subdivision of images into the respective folder inside /yolov5/data/images/ | Place each subdivision of labels into the respective folder inside /yolov5/data/labels/ | Customize your training command | Train and wait several hours for it to complete | Evalutate model performance | . ",
+    "url": "/docs/algorithm/archive/yolo_tips.html#summary",
+    
+    "relUrl": "/docs/algorithm/archive/yolo_tips.html#summary"
+  }
+}
