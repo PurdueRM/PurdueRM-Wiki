@@ -17,7 +17,9 @@ nav_order: 3
 - z is measurement at time t
 
 In constructor we reset, so:
-- X is now 6x1 column vector of $\begin{bmatrix} x_0 \\ y_0 \\ z_0 \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \end{bmatrix}$
+- X is now 6x1 column vector of 
+$$\begin{bmatrix} x_0 \\ y_0 \\ z_0 \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \end{bmatrix}
+$$
 - P is 6x6 joint covariance a diagonal matrix of p0 (originally 1) and is the covariance matrix of the state estimation: $\begin{bmatrix} p_0 & 0 & 0 & 0 & 0 & 0 \\ 0 & p_0 & 0 & 0 & 0 & 0 \\ 0 & 0 & p_0 & 0 & 0 & 0 \\ 0 & 0 & 0 & p_0 & 0 & 0 \\ 0 & 0 & 0 & 0 & p_0 & 0 \\ 0 & 0 & 0 & 0 & 0 & p_0 \end{bmatrix} = \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix}$
 
 From solvepnp we then call the update function.
