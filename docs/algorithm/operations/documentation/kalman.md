@@ -45,7 +45,7 @@ $$
 \hat{X} = \begin{bmatrix} x_0 + v_{x_0} * \triangle t \\ y_0 + v_{y_0} * \triangle t \\ z_0 + v_{z_0} * \triangle t \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \overset{\text{State Transition Matrix}}{\begin{bmatrix} 1 & 0 & 0 & \triangle t & 0 & 0 \\ 0 & 1 & 0 & 0 & \triangle t & 0 \\ 0 & 0 & 1 & 0 & 0 & \triangle t \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix}} * \overset{\text{State Vector } X}{\begin{bmatrix} x_0 \\ y_0 \\ z_0 \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix}}
 $$
 
-This gives rise to the **state transition matrix** $A$, which describes how the state of the system changes over time. In our case, this is the kinematic model we apply to the state vector:
+This gives rise to the **state transition matrix** $A$, which describes how the state of the system changes over time. In our case, this is the kinematic model we apply to the state vector.
 
 $$
  A = \begin{bmatrix} 1 & 0 & 0 & \triangle t & 0 & 0 \\ 0 & 1 & 0 & 0 & \triangle t & 0 \\ 0 & 0 & 1 & 0 & 0 & \triangle t \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix}
@@ -85,17 +85,18 @@ $$
 \hat{X} = A * X = \begin{bmatrix} 1 & 0 & 0 & \triangle t & 0 & 0 \\ 0 & 1 & 0 & 0 & \triangle t & 0 \\ 0 & 0 & 1 & 0 & 0 & \triangle t \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix} * \begin{bmatrix} x_0 \\ y_0 \\ z_0 \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \begin{bmatrix} x_0 + v_{x_0} * \triangle t \\ y_0 + v_{y_0} * \triangle t \\ z_0 + v_{z_0} * \triangle t \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix}
 $$
 
-The covariance of the predicted state vector is given by $\hat{P}_t$:
+The covariance of the predicted state vector $\hat{X}$ is given by $\hat{P}_t$:
 
 $$
-\hat{P}_t = APA^T + Q = \begin{bmatrix} 1 & 0 & 0 & dt & 0 & 0 \\ 0 & 1 & 0 & 0 & dt & 0 \\ 0 & 0 & 1 & 0 & 0 & dt \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 & 0 & dt & 0 & 0 \\ 0 & 1 & 0 & 0 & dt & 0 \\ 0 & 0 & 1 & 0 & 0 & dt \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix}^T + \begin{bmatrix} 0.1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 0.1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0.1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0.1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0.1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 0.1 \end{bmatrix}
+\hat{P}_t = APA^T + Q = \begin{bmatrix} 1 & 0 & 0 & \triangle t & 0 & 0 \\ 0 & 1 & 0 & 0 & \triangle t & 0 \\ 0 & 0 & 1 & 0 & 0 & \triangle t \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 & 0 & \triangle t & 0 & 0 \\ 0 & 1 & 0 & 0 & \triangle t & 0 \\ 0 & 0 & 1 & 0 & 0 & \triangle t \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix}^T + \begin{bmatrix} 0.1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 0.1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0.1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0.1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 0.1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 0.1 \end{bmatrix}
 $$
 
-We can then define the **innovation of measurement** $y_t$ as the difference between our measurement and our prediction:
+We can then define the **innovation of measurement** $y_t$ as the difference between our measurement and our prediction. 
+Note that since $\hat{X_t} \in \R^6$ we need to map this vector in $\real^6 \rightarrow \real^3$ in order to subtract between the measurement and prediction. $H$ is this such **observation matrix** that maps from the state space to the measurement space:
 
 $$
 y_t = z_t - H\hat{X_t} \newline \space \newline
-y_t = \begin{bmatrix} x \\ y \\ z \end{bmatrix} - \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix} * \begin{bmatrix} x_0 + v_{x_0} * \triangle t \\ y_0 + v_{y_0} * \triangle t \\ z_0 + v_{z_0} * \triangle t \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \begin{bmatrix} x - (x_0 + v_{x_0} * \triangle t) \\ y - (y_0 + v_{y_0} * \triangle t) \\ z - (z_0 + v_{z_0} * \triangle t) \end{bmatrix} 
+y_t = \begin{bmatrix} x \\ y \\ z \end{bmatrix} - \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix} \begin{bmatrix} x_0 + v_{x_0} * \triangle t \\ y_0 + v_{y_0} * \triangle t \\ z_0 + v_{z_0} * \triangle t \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \begin{bmatrix} x - (x_0 + v_{x_0} * \triangle t) \\ y - (y_0 + v_{y_0} * \triangle t) \\ z - (z_0 + v_{z_0} * \triangle t) \end{bmatrix} 
 $$ 
 
 
@@ -106,11 +107,13 @@ S_t = H\hat{P_t}H^T + R = \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0
 $$
 
 
-We now have all the information we need to calculate the **Kalman gain** and update our state vector and covariance matrix. The Kalman gain $K$ is given by:
+We now have all the information we need to calculate the **Kalman gain** and update our state vector and covariance matrix. The Kalman gain $K$ first maps $\hat{P}_t$ from $\real^6 \rightarrow \real^3$ and then multiplies by the inverse of $S_t$. 
 
 $$
 K = \hat{P_t}H^TS_t^{-1} = \hat{P_t} \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix}^T S_t^{-1}
 $$
+
+Intuitively, a large covariance in the state vector (high uncertainty) or a small covariance in the innovation (high confidence in measurement) will result in a larger Kalman gain. This makes sense, since we want to trust our measurement more if we're more confident in it, and we want to trust our prediction more if we're less confident in our measurement.
 
 The updated covariance matrix $P_t$ is given by:
 
@@ -118,17 +121,17 @@ $$
 P_t = (I - KH)\hat{P_t} = (I - K \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix}) \hat{P_t}
 $$
 
-And finally we produce our final estimation of the state of the system $X_t$:
+And finally we produce our final estimation of the state of the system $X_t$, which is our state predicted by our kinematic model plus the Kalman gain times the innovation of measurement. You can think of this as a weighted average of our prediction and our measurement, where the weight is given by the Kalman gain.
 
 $$
 X_t = \hat{X_t} + K(y_t) \newline
-= \begin{bmatrix} x_0 + dt*v_x \\ y_0 + dt*v_y \\ z_0 + dt*v_z \\ v_x \\ v_y \\ v_z \end{bmatrix} + K \begin{bmatrix} x - (x_0 + v_{x_0} * \triangle t) \\ y - (y_0 + v_{y_0} * \triangle t) \\ z - (z_0 + v_{z_0} * \triangle t) \end{bmatrix}  \newline
-= \begin{bmatrix} x_0 + dt*v_x \\ y_0 + dt*v_y \\ z_0 + dt*v_z \\ v_x \\ v_y \\ v_z \end{bmatrix} + \begin{bmatrix} K_{x} * (x - (x_0 + v_{x_0} * \triangle t)) \\ K_{y} * (y - (y_0 + v_{y_0} * \triangle t)) \\ K_{z} * (z - (z_0 + v_{z_0} * \triangle t)) \\ 0 \\ 0 \\ 0 \end{bmatrix} \newline
+= \begin{bmatrix} x_0 + v_{x_0} * \triangle t \\ y_0 + v_{y_0} * \triangle t \\ z_0 + v_{z_0} * \triangle t \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} + K \begin{bmatrix} x - (x_0 + v_{x_0} * \triangle t) \\ y - (y_0 + v_{y_0} * \triangle t) \\ z - (z_0 + v_{z_0} * \triangle t) \end{bmatrix}  \newline
 $$
 
+Intuitively, if our real measurement is close to our prediction (or the uncertainty of our measurement is low), then the Kalman gain will be closer to 1, resulting in a larger trust into our measured state. If our real measurement is far from our prediction (or the uncertainty of our measurement is high), then the Kalman gain will be closer to 0, resulting in a larger trust into our predicted state.
 
 
-Then we can extract our predicted position and velocity from X, our updated state vector:
+Then we can extract our predicted position and velocity from $X$, our updated state vector:
 ```cpp
 dst[0] = this->X(0, 0); // predicted x
 dst[1] = this->X(1, 0); // predicted y
@@ -138,23 +141,38 @@ dst[4] = this->X(4, 0); // predicted vy
 dst[5] = this->X(5, 0); // predicted vz
 ```
 
-# Running an Example
+## Summarizing the Process:
+1. **Initializations**:
+   1. Define state vector $X$ along with its covariance matrix $P$.
+   2. Define state transition matrix (model of system) $A$ and its process noise covariance matrix $Q$.
+   3. Define the observation matrix $H$, which maps from the state space to the measurement space.
+   4. Define the measurement covariance matrix $R$, which captures the noise of the sensor and is treated as constant.
+2. **Update Step**:
+    1. Populate the measurement vector $X_{measured_{t}}$ or $Z_t$.
+    2. Calculate the predicted state vector $\hat{X}$ based on the state model and its covariance matrix $\hat{P}_t$.
+    3. Update the innovation of measurement $y_t$ and its covariance matrix $S_t$.
+    4. Calculate the Kalman gain $K$.
+    5. Update the state vector $X_t$ and its covariance matrix $P_t$.
 
-Start by assuming we've initialized and reset the Kalman filter. We'll also assume that we have a pose estimate from solvePnP after 0.1 seconds (dt): 
+<br>
+<br>
+<br>
+<br>
 
-Measurement = $\begin {bmatrix} x \\ y \\ z \end{bmatrix} = \begin{bmatrix} 10 \\ 20 \\ 40 \end{bmatrix}$ in millimeters
+# Let's Do an Example Mathematically
+
+Start by assuming we've initialized and reset the Kalman filter. We'll also assume that we have a pose estimate from solvePnP after 0.1 seconds ($\triangle t$): 
 
 ```cpp
 this->X_t_measure(0, 0) = pos_x;
 this->X_t_measure(1, 0) = pos_y;
 this->X_t_measure(2, 0) = pos_z;
 ```
-
 $$
-X_{measured_{t}} = z_t = \begin{bmatrix} 10 \\ 20 \\ 40 \end{bmatrix}
+X_{measured_{t}} = z_t = \begin{bmatrix} 10 \\ 20 \\ 40 \end{bmatrix} \text{ for example}
 $$
 
-Putting `dt` into our state transition matrix $A$:
+Putting $\triangle t$ into our state transition matrix $A$:
 
 ```cpp
 this->A(0, 3) = dt;
@@ -249,7 +267,7 @@ $$
 \begin{bmatrix} x \\ y \\ z \\ v_x \\ v_y \\ v_z \end{bmatrix} = \begin{bmatrix} 9.999 \\ 19.998 \\ 39.996 \\ 0.999 \\ 1.998 \\ 3.996 \end{bmatrix}
 $$
 
-Comparing to results from kalman filter implementation in C++:
+Comparing to results from the kalman filter implementation in C++:
 
 ```cpp
 Kalman Filter Result:
@@ -261,4 +279,20 @@ Y Velocity: 1.9792
 Z Velocity: 3.9584
 ```
 
-This yeilds a predicted x of 9.99505, a predicted y of 19.9901, and a predicted z of 39.9802. This is very close to the actual values of 10, 20, and 40. Following the assumption of a constant velocity, 10mm / 1 sec = 0.1 mm in 0.1 seconds. We can see that our predicted x velocity is 0.989599. This indicated the predicted velocity is very close to the actual velocity of the model we assumed.
+<br>
+<br>
+
+# Results
+Comparing the results of our calculation to the results of the Kalman filter implementation in C++:
+
+$$
+\begin{bmatrix} x \\ y \\ z \\ v_x \\ v_y \\ v_z \end{bmatrix} = \overset{\text{Manual Calculation}}{\begin{bmatrix} 9.999 \\ 19.998 \\ 39.996 \\ 0.999 \\ 1.998 \\ 3.996 \end{bmatrix}} \approx \overset{\text{C++ Code}}{\begin{bmatrix} 9.99505 \\ 19.9901 \\ 39.9802 \\ 0.989599 \\ 1.9792 \\ 3.9584 \end{bmatrix}}
+$$
+
+Then checking the predicted velocity following our assumption of zero acceleration:
+
+$$
+\frac{10mm}{0.1s} = 100mm/s = \underset{\text{Kinematic}}{0.1m/s} \approx \underset{\text{C++ Code}}{0.989m/s}
+$$
+
+This indicates that our C++ code is working as expected, and is able to predict the position and velocity of our target robot.
