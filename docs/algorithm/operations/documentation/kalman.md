@@ -7,12 +7,15 @@ nav_order: 3
 ---
 
 # Kalman Filter for Vision
+Tom O'Donnell
+
+<br>
 
 Many times when you're working with vision applications, you'll find that the data you're getting from your sensors is inherently noisy. A camera, for example, takes a 3D world and projects it onto a 2D plane, and in doing so it's losing or distorting information. Running processing operations on camera frames can further introduce noise, like in our context no lightbar detection is going to be 100% accurate or consistent. As a result, our estimation of the target robot's true position (the **state of the system**) will always have a level of noise.
 
 How can we handle these noisy measurements and obtain a more accurate estimate of the state of the system?
 
-## Kalman Filter
+### Kalman Filter
 
 In our case, we can produce discrete estimations of the target robot's pose using the solvePnP function. We also have a simplified kinematic model of the target robot. You should note that these two sources of information are actually producing a guess at the same thing: the pose of the target robot. A Kalman filter is a way of combining these two uncertain sources of information and **producing a better estimation of the state of the system than either of them could produce on their own**.
 
