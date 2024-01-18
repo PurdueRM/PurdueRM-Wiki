@@ -54,13 +54,13 @@ $$
  A = \begin{bmatrix} 1 & 0 & 0 & \triangle t & 0 & 0 \\ 0 & 1 & 0 & 0 & \triangle t & 0 \\ 0 & 0 & 1 & 0 & 0 & \triangle t \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{bmatrix}
 $$
 
-We'll then define the covariance matrix $P$, which describes the covariance (or uncertainty) correlation between state variables. The $[i, j]$-th entry corresponds to the correlation between uncertainty of state variables $i$ and $j$. We'll initialize this to a diagonal matrix of 10000 as an initial guess. This indicates that we're very uncertain about the state of the system in the beginning.
+We'll then define the covariance matrix $P$, which describes the covariance (or uncertainty) correlation between state variables. The $[i, j]$-th entry corresponds to the correlation between uncertainty of state variables $i$ and $j$. 
 
 $$
 P = \begin{bmatrix} 10000 & 0 & 0 & 0 & 0 & 0 \\ 0 & 10000 & 0 & 0 & 0 & 0 \\ 0 & 0 & 10000 & 0 & 0 & 0 \\ 0 & 0 & 0 & 10000 & 0 & 0 \\ 0 & 0 & 0 & 0 & 10000 & 0 \\ 0 & 0 & 0 & 0 & 0 & 10000 \end{bmatrix}
 $$
 
-We also need to represent the uncertainty of our measurement (the pose of the target robot as estimated by solvePnP) and the uncertainty of our prediction (the pose of the target robot as estimated by our kinematic model). We can do this by defining the **measurement covariance matrix** $R$ and the **process noise covariance matrix** $Q$. $Q$ will be initialized to a diagonal matrix of 0.1 as an initial guess. $R$ will be initialized to a diagonal matrix of 5 as an initial guess. This indicates that we're more confident in our prediction via kinematics than our measurement.
+We also need to represent the uncertainty of our measurement (the pose of the target robot as estimated by solvePnP) and the uncertainty of our prediction (the pose of the target robot as estimated by our kinematic model). We can do this by defining the **measurement covariance matrix** $R$ and the **process noise covariance matrix** $Q$. $Q$ will be initialized to a diagonal matrix of 0.1. $R$ will be initialized to a diagonal matrix of 5. 
 
 
 $$
@@ -114,9 +114,7 @@ We now have all the information we need to calculate the **Kalman gain** and upd
 
 $$
 K = \hat{P_t}H^TS_t^{-1} = \hat{P_t} \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix}^T S_t^{-1}
-$$
-
-Intuitively, a large covariance in the state vector (high uncertainty) or a small covariance in the innovation (high confidence in measurement) will result in a larger Kalman gain. This makes sense, since we want to trust our measurement more if we're more confident in it, and we want to trust our prediction more if we're less confident in our measurement.
+$
 
 The updated covariance matrix $P_t$ is given by:
 
