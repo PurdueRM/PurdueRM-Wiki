@@ -115,7 +115,7 @@ We now have all the information we need to calculate the **Kalman gain** and upd
 
 $$
 K = \hat{P_t}H^TS_t^{-1} = \hat{P_t} \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix}^T S_t^{-1}
-$
+$$
 
 The updated covariance matrix $P_t$ is given by:
 
