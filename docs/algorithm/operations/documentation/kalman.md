@@ -97,6 +97,7 @@ $$
 We can then define the **innovation of measurement** $y_t$ as the difference between our measurement and our prediction. 
 Note that since $\hat{X_t} \in \R^6$ we need to map this vector in $\real^6 \rightarrow \real^3$ in order to subtract between the measurement and prediction. $H$ is this such **observation matrix** that maps from the state space to the measurement space:
 
+
 $$
 y_t = z_t - H\hat{X_t} \newline \space \newline
 y_t = \begin{bmatrix} x \\ y \\ z \end{bmatrix} - \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 & 0 & 0 \end{bmatrix} \begin{bmatrix} x_0 + v_{x_0} * \triangle t \\ y_0 + v_{y_0} * \triangle t \\ z_0 + v_{z_0} * \triangle t \\ v_{x_0} \\ v_{y_0} \\ v_{z_0} \end{bmatrix} = \begin{bmatrix} x - (x_0 + v_{x_0} * \triangle t) \\ y - (y_0 + v_{y_0} * \triangle t) \\ z - (z_0 + v_{z_0} * \triangle t) \end{bmatrix} 
