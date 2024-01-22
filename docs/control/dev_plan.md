@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wheel-Legged Balancing State Space
+title: Development Plan
 parent: Control
 nav_order: 9
 ---
