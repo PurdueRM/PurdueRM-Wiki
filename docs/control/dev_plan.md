@@ -9,9 +9,8 @@ nav_order: 9
 ## Table of projects
 
 - [Hardware Library Refractor](#hardware-library-refractor)
-- [MC Board Setup](#status)
-- [OpenOCD Debug Setup](#whats-included)
-
+- [MC Board Setup](#DM-board-setup)
+- [OpenOCD Debug Setup](#openocd-setup)
 
 
 ## Hardware Library Refractor
