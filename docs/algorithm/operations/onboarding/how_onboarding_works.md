@@ -6,12 +6,6 @@ grand_parent: Algorithm
 nav_order: 1
 ---
 
-### Overview:
-This season, we have designed two project options for members to choose from. You must select and complete one of the following projects before the second meeting:
-1. **Computer Vision**: Detect the Earth in the famous Pale Blue Dot image
-2. **SWE / ROS2**: Explore our code pipeline and write software to receive a message published by our robot
-3. **ML**: Create an image classifier model (very difficult).
-
 You should have already filled out the Google Form to join the team (if not, DM `@tomdonel`). Within 48 hours of filling out the form, you will receive an email with your login information to the development server.
 
 ***
@@ -19,7 +13,7 @@ You should have already filled out the Google Form to join the team (if not, DM 
 ### **To log onto the server**, follow these instructions:
 If you are on MacOS or Ubuntu:
 - For MacOS, install XQuartz: https://www.xquartz.org/.
-- Open a terminal window and type: `ssh -XC your_puid@tx2.purduerm.org -p 10051`. 
+- Open a terminal window and type: `ssh -XC -J serveo.net purduerm@purduerm`. 
 - Enter your password (from email) and you will be placed into your home directory. If you are asked to accept/deny a key, accept it. 
 - Your starter code for onboarding is waiting for you!
 
@@ -32,7 +26,7 @@ For your login information:
 	- Port: `10051`
 - In the save/load box **save this profile with a name**. Every time you want to log in, you will load this profile.
 - Hit connect, and for Username/Password see your email. You will be placed into your home directory! If you are asked to accept/deny a key, accept it.
-- Your starter code for onboarding is waiting for you!
+- *NOTE: You need to start X410 server manually. If displaying images doesn't work during your project, this is likely why!*
 	
 ***
 
