@@ -30,6 +30,6 @@ For your login information:
 	
 ***
 
-You should now get started on your onboarding project! See the wiki page of your specific project for instructions. Good luck!
+You should now get started on your onboarding project! See [the project's README]() for more details!
 
 
