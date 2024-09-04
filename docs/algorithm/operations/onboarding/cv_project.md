@@ -3,7 +3,7 @@ layout: default
 title: Computer Vision Project
 parent: Onboarding Process
 grand_parent: Algorithm
-nav_order: 2
+nav_order: -1
 ---
 
 ## This page will serve to briefly summarize the goals and instructions for the Computer Vision Onboarding project.
