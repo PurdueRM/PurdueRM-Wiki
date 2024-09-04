@@ -13,7 +13,7 @@ You should have already filled out the Google Form to join the team (if not, DM 
 ### **To log onto the server**, follow these instructions:
 If you are on MacOS or Ubuntu:
 - For MacOS, install XQuartz: https://www.xquartz.org/.
-- Open a terminal window and type: `ssh -XC your_username@orin.purduerm.org -p 34229`. 
+- Open a terminal window and type: `ssh -XC your_username@dev.purduerm.org -p 34229`. 
 - Enter your password (from email) and you will be placed into your home directory. If you are asked to accept/deny a key, accept it. 
 - Your starter code for onboarding is waiting for you!
 
@@ -22,7 +22,7 @@ If you are on Windows:
 - Install PuTTY from https://www.putty.org.
 - Open PuTTY. Under the "Connection" > "SSH" > "X11" settings, make sure the `Enable X11 forwarding` option is checked. Set `localhost:0.0` as the "X display location".
 For your login information:
-	- Hostname: `orin.purduerm.org`
+	- Hostname: `dev.purduerm.org`
 	- Port: `34229`
 - In the save/load box **save this profile with a name**. Every time you want to log in, you will load this profile.
 - Hit connect, and for Username/Password see your email. You will be placed into your home directory! If you are asked to accept/deny a key, accept it.
