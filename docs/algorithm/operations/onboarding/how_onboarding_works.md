@@ -30,6 +30,6 @@ For your login information:
 	
 ***
 
-You should now get started on your onboarding project! See [the project's README]() for more details!
+You should now get started on your onboarding project! See [your onboarding project's README](https://gitlab.com/robomaster-club/onboarding-setup-2024/-/tree/main?ref_type=heads) for more details!
 
 
