@@ -1,4 +1,4 @@
-# PurdueRM-Wiki (https://robomaster-club.github.io/PurdueRM-Wiki/)
+# PurdueRM-Wiki (https://purduerm.github.io/PurdueRM-Wiki/)
 Public Wiki / Documentation for Purdue's Robomasters Club
 
 
