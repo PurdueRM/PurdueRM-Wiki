@@ -55,4 +55,4 @@ You can try to do a mail system, but IMO just have a bash script make the accoun
 
 
 ### Usage
-Go look at the script. It's uploaded here on the wiki
+Go look at the [script](create_users.sh). It's uploaded here on the wiki
