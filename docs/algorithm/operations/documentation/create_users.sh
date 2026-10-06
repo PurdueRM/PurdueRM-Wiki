@@ -94,6 +94,7 @@ create_user() {
     useradd \
         --create-home \
         --shell /bin/bash \
+        --groups plugdev \
         "$username"
 
     # Set temporary password
