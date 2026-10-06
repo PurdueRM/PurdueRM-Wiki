@@ -49,10 +49,16 @@ and follow the setup instructions
 #### Disable key expiry
 Login to the console, and make sure to disable the auto key expiry of the machine. Else you will need to reauthenticate every 180 days
 
+#### Setup of a shared machine
+Go to the tailscale console and press share on the machine. Share via email to the student if possible.
+
 #### Setup of User Account "system"
 You can try to do a mail system, but IMO just have a bash script make the account for you and then do the emails manually.
 
-
-
-### Usage
 Go look at the [script](create_users.sh). It's uploaded here on the wiki
+
+### Usage for Students
+- Give the server owner (Andy Niu: <niua@purdue.edu) your email
+- Server Owner will manually send you the tailscale share machine invite to that email
+- Server Owner will manually create your account and send you the login to that email
+
