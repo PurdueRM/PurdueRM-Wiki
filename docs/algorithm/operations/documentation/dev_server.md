@@ -24,6 +24,7 @@ These Developer Servers are used by Algorithm and VIP members to do their projec
   - This is our VIP projects developer server
   - Setup via Tailscale sharing
   - Contact Andy Niu for help with this server
+  - **Has a 256GB SSD installed at /mnt/ssd**
  
 ## Jetson Orin AGX 32GB Setup and Usage
 This is left empty for Mark Antonov to fill out later
