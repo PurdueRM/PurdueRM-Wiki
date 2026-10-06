@@ -59,7 +59,7 @@ You can try to do a mail system, but IMO just have a bash script make the accoun
 Go look at the [script](create_users.sh). It's uploaded here on the wiki
 
 ### Usage for Students
-- Give the server owner (Andy Niu: <niua@purdue.edu) your email
+- Give the server owner (Andy Niu: <niua@purdue.edu>) your email
 - Server Owner will manually send you the tailscale share machine invite to that email
 - Server Owner will manually create your account and send you the login to that email
 
