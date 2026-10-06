@@ -32,5 +32,22 @@ This is left empty for Mark Antonov to fill out later
 This Dev Server is setup via [Tailscale Shared Machine](https://tailscale.com/docs/features/sharing)
 
 ### Setup
+Install tailscale on the machine via:
+```
+curl -fsSL https://tailscale.com/install.sh | sh
+```
+Then run this to start up tailscale:
+```
+sudo tailscale up
+```
+Then login/authenticate the device:
+```
+sudo tailscale login
+```
+and follow the setup instructions
+#### Configure tailscale auto boot on startup
+Login to the console, and make sure to disable the auto key expiry of the machine.
+
+
 
 ### Usage
