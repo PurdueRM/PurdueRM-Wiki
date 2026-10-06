@@ -32,6 +32,7 @@ This is left empty for Mark Antonov to fill out later
 This Dev Server is setup via [Tailscale Shared Machine](https://tailscale.com/docs/features/sharing)
 
 ### Setup
+#### Setup of Tailscale
 Install tailscale on the machine via:
 ```
 curl -fsSL https://tailscale.com/install.sh | sh
@@ -45,9 +46,13 @@ Then login/authenticate the device:
 sudo tailscale login
 ```
 and follow the setup instructions
-#### Configure tailscale auto boot on startup
-Login to the console, and make sure to disable the auto key expiry of the machine.
+#### Disable key expiry
+Login to the console, and make sure to disable the auto key expiry of the machine. Else you will need to reauthenticate every 180 days
+
+#### Setup of User Account "system"
+You can try to do a mail system, but IMO just have a bash script make the account for you and then do the emails manually.
 
 
 
 ### Usage
+Go look at the script. It's uploaded here on the wiki
